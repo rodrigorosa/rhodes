@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46E9213C0E9BF40A00F14AC8 /* arraylist.c in Sources */ = {isa = PBXBuildFile; fileRef = 46E921270E9BF40A00F14AC8 /* arraylist.c */; };
+		46E9213D0E9BF40A00F14AC8 /* arraylist.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E921280E9BF40A00F14AC8 /* arraylist.h */; };
+		46E9213E0E9BF40A00F14AC8 /* bits.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E9212A0E9BF40A00F14AC8 /* bits.h */; };
+		46E9213F0E9BF40A00F14AC8 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E9212B0E9BF40A00F14AC8 /* config.h */; };
+		46E921400E9BF40A00F14AC8 /* json_debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 46E9212D0E9BF40A00F14AC8 /* json_debug.c */; };
+		46E921410E9BF40A00F14AC8 /* json_debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E9212E0E9BF40A00F14AC8 /* json_debug.h */; };
+		46E921420E9BF40A00F14AC8 /* json.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E921300E9BF40A00F14AC8 /* json.h */; };
+		46E921430E9BF40A00F14AC8 /* json_object.c in Sources */ = {isa = PBXBuildFile; fileRef = 46E921310E9BF40A00F14AC8 /* json_object.c */; };
+		46E921440E9BF40A00F14AC8 /* json_object.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E921320E9BF40A00F14AC8 /* json_object.h */; };
+		46E921450E9BF40A00F14AC8 /* json_object_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E921330E9BF40A00F14AC8 /* json_object_private.h */; };
+		46E921460E9BF40A00F14AC8 /* json_tokener.c in Sources */ = {isa = PBXBuildFile; fileRef = 46E921340E9BF40A00F14AC8 /* json_tokener.c */; };
+		46E921470E9BF40A00F14AC8 /* json_tokener.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E921350E9BF40A00F14AC8 /* json_tokener.h */; };
+		46E921480E9BF40A00F14AC8 /* json_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 46E921360E9BF40A00F14AC8 /* json_util.c */; };
+		46E921490E9BF40A00F14AC8 /* json_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E921370E9BF40A00F14AC8 /* json_util.h */; };
+		46E9214A0E9BF40A00F14AC8 /* linkhash.c in Sources */ = {isa = PBXBuildFile; fileRef = 46E921380E9BF40A00F14AC8 /* linkhash.c */; };
+		46E9214B0E9BF40A00F14AC8 /* linkhash.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E921390E9BF40A00F14AC8 /* linkhash.h */; };
+		46E9214C0E9BF40A00F14AC8 /* printbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 46E9213A0E9BF40A00F14AC8 /* printbuf.c */; };
+		46E9214D0E9BF40A00F14AC8 /* printbuf.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E9213B0E9BF40A00F14AC8 /* printbuf.h */; };
+		5C329221112C748F00FD3F13 /* RJSONTokener.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C329220112C748F00FD3F13 /* RJSONTokener.c */; };
+		5C74058A1064AA4900163569 /* DBAttrManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C7405881064AA4900163569 /* DBAttrManager.cpp */; };
+		5C74058B1064AA4900163569 /* DBAttrManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7405891064AA4900163569 /* DBAttrManager.h */; };
+		5C9817230FBC4F20002597A5 /* JSONIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C9817210FBC4F20002597A5 /* JSONIterator.cpp */; };
+		5C9817240FBC4F20002597A5 /* JSONIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9817220FBC4F20002597A5 /* JSONIterator.h */; };
+		5C9817330FBC4F70002597A5 /* DBAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C98172F0FBC4F70002597A5 /* DBAdapter.cpp */; };
+		5C9817340FBC4F70002597A5 /* DBAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9817300FBC4F70002597A5 /* DBAdapter.h */; };
+		5C9817350FBC4F70002597A5 /* DBResult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C9817310FBC4F70002597A5 /* DBResult.cpp */; };
+		5C9817360FBC4F70002597A5 /* DBResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9817320FBC4F70002597A5 /* DBResult.h */; };
+		C503935916821F9C0025B96C /* RhoconnectClientManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C503935816821F9C0025B96C /* RhoconnectClientManager.cpp */; };
+		C522F0FC159B1FFF007FF96E /* DBImportTransaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C522F0F8159B1FFF007FF96E /* DBImportTransaction.cpp */; };
+		C522F0FD159B1FFF007FF96E /* DBImportTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = C522F0F9159B1FFF007FF96E /* DBImportTransaction.h */; };
+		C522F0FE159B1FFF007FF96E /* DBRequestHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C522F0FA159B1FFF007FF96E /* DBRequestHelper.cpp */; };
+		C522F0FF159B1FFF007FF96E /* DBRequestHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C522F0FB159B1FFF007FF96E /* DBRequestHelper.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46E921270E9BF40A00F14AC8 /* arraylist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = arraylist.c; path = ../../shared/json/arraylist.c; sourceTree = SOURCE_ROOT; };
+		46E921280E9BF40A00F14AC8 /* arraylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arraylist.h; path = ../../shared/json/arraylist.h; sourceTree = SOURCE_ROOT; };
+		46E921290E9BF40A00F14AC8 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AUTHORS; path = ../../shared/json/AUTHORS; sourceTree = SOURCE_ROOT; };
+		46E9212A0E9BF40A00F14AC8 /* bits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bits.h; path = ../../shared/json/bits.h; sourceTree = SOURCE_ROOT; };
+		46E9212B0E9BF40A00F14AC8 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../shared/json/config.h; sourceTree = SOURCE_ROOT; };
+		46E9212C0E9BF40A00F14AC8 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = COPYING; path = ../../shared/json/COPYING; sourceTree = SOURCE_ROOT; };
+		46E9212D0E9BF40A00F14AC8 /* json_debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = json_debug.c; path = ../../shared/json/json_debug.c; sourceTree = SOURCE_ROOT; };
+		46E9212E0E9BF40A00F14AC8 /* json_debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json_debug.h; path = ../../shared/json/json_debug.h; sourceTree = SOURCE_ROOT; };
+		46E9212F0E9BF40A00F14AC8 /* INSTALL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = INSTALL; path = ../../shared/json/INSTALL; sourceTree = SOURCE_ROOT; };
+		46E921300E9BF40A00F14AC8 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json.h; path = ../../shared/json/json.h; sourceTree = SOURCE_ROOT; };
+		46E921310E9BF40A00F14AC8 /* json_object.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = json_object.c; path = ../../shared/json/json_object.c; sourceTree = SOURCE_ROOT; };
+		46E921320E9BF40A00F14AC8 /* json_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json_object.h; path = ../../shared/json/json_object.h; sourceTree = SOURCE_ROOT; };
+		46E921330E9BF40A00F14AC8 /* json_object_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json_object_private.h; path = ../../shared/json/json_object_private.h; sourceTree = SOURCE_ROOT; };
+		46E921340E9BF40A00F14AC8 /* json_tokener.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = json_tokener.c; path = ../../shared/json/json_tokener.c; sourceTree = SOURCE_ROOT; };
+		46E921350E9BF40A00F14AC8 /* json_tokener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json_tokener.h; path = ../../shared/json/json_tokener.h; sourceTree = SOURCE_ROOT; };
+		46E921360E9BF40A00F14AC8 /* json_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = json_util.c; path = ../../shared/json/json_util.c; sourceTree = SOURCE_ROOT; };
+		46E921370E9BF40A00F14AC8 /* json_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json_util.h; path = ../../shared/json/json_util.h; sourceTree = SOURCE_ROOT; };
+		46E921380E9BF40A00F14AC8 /* linkhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = linkhash.c; path = ../../shared/json/linkhash.c; sourceTree = SOURCE_ROOT; };
+		46E921390E9BF40A00F14AC8 /* linkhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = linkhash.h; path = ../../shared/json/linkhash.h; sourceTree = SOURCE_ROOT; };
+		46E9213A0E9BF40A00F14AC8 /* printbuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = printbuf.c; path = ../../shared/json/printbuf.c; sourceTree = SOURCE_ROOT; };
+		46E9213B0E9BF40A00F14AC8 /* printbuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = printbuf.h; path = ../../shared/json/printbuf.h; sourceTree = SOURCE_ROOT; };
+		5C329220112C748F00FD3F13 /* RJSONTokener.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RJSONTokener.c; sourceTree = "<group>"; };
+		5C7405881064AA4900163569 /* DBAttrManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DBAttrManager.cpp; path = ../../shared/db/DBAttrManager.cpp; sourceTree = SOURCE_ROOT; };
+		5C7405891064AA4900163569 /* DBAttrManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBAttrManager.h; path = ../../shared/db/DBAttrManager.h; sourceTree = SOURCE_ROOT; };
+		5C9817210FBC4F20002597A5 /* JSONIterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONIterator.cpp; sourceTree = "<group>"; };
+		5C9817220FBC4F20002597A5 /* JSONIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONIterator.h; sourceTree = "<group>"; };
+		5C98172F0FBC4F70002597A5 /* DBAdapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DBAdapter.cpp; path = ../../shared/db/DBAdapter.cpp; sourceTree = SOURCE_ROOT; };
+		5C9817300FBC4F70002597A5 /* DBAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBAdapter.h; path = ../../shared/db/DBAdapter.h; sourceTree = SOURCE_ROOT; };
+		5C9817310FBC4F70002597A5 /* DBResult.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DBResult.cpp; path = ../../shared/db/DBResult.cpp; sourceTree = SOURCE_ROOT; };
+		5C9817320FBC4F70002597A5 /* DBResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBResult.h; path = ../../shared/db/DBResult.h; sourceTree = SOURCE_ROOT; };
+		C503935616821E340025B96C /* RhoconnectClientManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RhoconnectClientManager.h; path = ../../shared/sync/RhoconnectClientManager.h; sourceTree = "<group>"; };
+		C503935816821F9C0025B96C /* RhoconnectClientManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhoconnectClientManager.cpp; path = ../../shared/sync/RhoconnectClientManager.cpp; sourceTree = "<group>"; };
+		C522F0F8159B1FFF007FF96E /* DBImportTransaction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DBImportTransaction.cpp; path = ../../shared/db/DBImportTransaction.cpp; sourceTree = "<group>"; };
+		C522F0F9159B1FFF007FF96E /* DBImportTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBImportTransaction.h; path = ../../shared/db/DBImportTransaction.h; sourceTree = "<group>"; };
+		C522F0FA159B1FFF007FF96E /* DBRequestHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DBRequestHelper.cpp; path = ../../shared/db/DBRequestHelper.cpp; sourceTree = "<group>"; };
+		C522F0FB159B1FFF007FF96E /* DBRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBRequestHelper.h; path = ../../shared/db/DBRequestHelper.h; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* librhosynclib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librhosynclib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* rhosynclib */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = rhosynclib;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5C98172E0FBC4F53002597A5 /* db */,
+				5C9817250FBC4F27002597A5 /* sync */,
+				46E921260E9BF40A00F14AC8 /* json */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* librhosynclib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46E921260E9BF40A00F14AC8 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				5C329220112C748F00FD3F13 /* RJSONTokener.c */,
+				5C9817210FBC4F20002597A5 /* JSONIterator.cpp */,
+				5C9817220FBC4F20002597A5 /* JSONIterator.h */,
+				46E921270E9BF40A00F14AC8 /* arraylist.c */,
+				46E921280E9BF40A00F14AC8 /* arraylist.h */,
+				46E921290E9BF40A00F14AC8 /* AUTHORS */,
+				46E9212A0E9BF40A00F14AC8 /* bits.h */,
+				46E9212B0E9BF40A00F14AC8 /* config.h */,
+				46E9212C0E9BF40A00F14AC8 /* COPYING */,
+				46E9212D0E9BF40A00F14AC8 /* json_debug.c */,
+				46E9212E0E9BF40A00F14AC8 /* json_debug.h */,
+				46E9212F0E9BF40A00F14AC8 /* INSTALL */,
+				46E921300E9BF40A00F14AC8 /* json.h */,
+				46E921310E9BF40A00F14AC8 /* json_object.c */,
+				46E921320E9BF40A00F14AC8 /* json_object.h */,
+				46E921330E9BF40A00F14AC8 /* json_object_private.h */,
+				46E921340E9BF40A00F14AC8 /* json_tokener.c */,
+				46E921350E9BF40A00F14AC8 /* json_tokener.h */,
+				46E921360E9BF40A00F14AC8 /* json_util.c */,
+				46E921370E9BF40A00F14AC8 /* json_util.h */,
+				46E921380E9BF40A00F14AC8 /* linkhash.c */,
+				46E921390E9BF40A00F14AC8 /* linkhash.h */,
+				46E9213A0E9BF40A00F14AC8 /* printbuf.c */,
+				46E9213B0E9BF40A00F14AC8 /* printbuf.h */,
+			);
+			name = json;
+			path = ../../shared/json;
+			sourceTree = SOURCE_ROOT;
+		};
+		5C9817250FBC4F27002597A5 /* sync */ = {
+			isa = PBXGroup;
+			children = (
+				C503935616821E340025B96C /* RhoconnectClientManager.h */,
+				C503935816821F9C0025B96C /* RhoconnectClientManager.cpp */,
+			);
+			name = sync;
+			sourceTree = "<group>";
+		};
+		5C98172E0FBC4F53002597A5 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				C522F0F8159B1FFF007FF96E /* DBImportTransaction.cpp */,
+				C522F0F9159B1FFF007FF96E /* DBImportTransaction.h */,
+				C522F0FA159B1FFF007FF96E /* DBRequestHelper.cpp */,
+				C522F0FB159B1FFF007FF96E /* DBRequestHelper.h */,
+				5C7405881064AA4900163569 /* DBAttrManager.cpp */,
+				5C7405891064AA4900163569 /* DBAttrManager.h */,
+				5C98172F0FBC4F70002597A5 /* DBAdapter.cpp */,
+				5C9817300FBC4F70002597A5 /* DBAdapter.h */,
+				5C9817310FBC4F70002597A5 /* DBResult.cpp */,
+				5C9817320FBC4F70002597A5 /* DBResult.h */,
+			);
+			name = db;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E9213D0E9BF40A00F14AC8 /* arraylist.h in Headers */,
+				46E9213E0E9BF40A00F14AC8 /* bits.h in Headers */,
+				46E9213F0E9BF40A00F14AC8 /* config.h in Headers */,
+				46E921410E9BF40A00F14AC8 /* json_debug.h in Headers */,
+				46E921420E9BF40A00F14AC8 /* json.h in Headers */,
+				46E921440E9BF40A00F14AC8 /* json_object.h in Headers */,
+				46E921450E9BF40A00F14AC8 /* json_object_private.h in Headers */,
+				46E921470E9BF40A00F14AC8 /* json_tokener.h in Headers */,
+				46E921490E9BF40A00F14AC8 /* json_util.h in Headers */,
+				46E9214B0E9BF40A00F14AC8 /* linkhash.h in Headers */,
+				46E9214D0E9BF40A00F14AC8 /* printbuf.h in Headers */,
+				5C9817240FBC4F20002597A5 /* JSONIterator.h in Headers */,
+				5C9817340FBC4F70002597A5 /* DBAdapter.h in Headers */,
+				5C9817360FBC4F70002597A5 /* DBResult.h in Headers */,
+				5C74058B1064AA4900163569 /* DBAttrManager.h in Headers */,
+				C522F0FD159B1FFF007FF96E /* DBImportTransaction.h in Headers */,
+				C522F0FF159B1FFF007FF96E /* DBRequestHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* rhosynclib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "rhosynclib" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rhosynclib;
+			productName = rhosynclib;
+			productReference = D2AAC046055464E500DB518D /* librhosynclib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "rhosynclib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* rhosynclib */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* rhosynclib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E9213C0E9BF40A00F14AC8 /* arraylist.c in Sources */,
+				46E921400E9BF40A00F14AC8 /* json_debug.c in Sources */,
+				46E921430E9BF40A00F14AC8 /* json_object.c in Sources */,
+				46E921460E9BF40A00F14AC8 /* json_tokener.c in Sources */,
+				46E921480E9BF40A00F14AC8 /* json_util.c in Sources */,
+				46E9214A0E9BF40A00F14AC8 /* linkhash.c in Sources */,
+				46E9214C0E9BF40A00F14AC8 /* printbuf.c in Sources */,
+				5C9817230FBC4F20002597A5 /* JSONIterator.cpp in Sources */,
+				5C9817330FBC4F70002597A5 /* DBAdapter.cpp in Sources */,
+				5C9817350FBC4F70002597A5 /* DBResult.cpp in Sources */,
+				5C74058A1064AA4900163569 /* DBAttrManager.cpp in Sources */,
+				5C329221112C748F00FD3F13 /* RJSONTokener.c in Sources */,
+				C522F0FC159B1FFF007FF96E /* DBImportTransaction.cpp in Sources */,
+				C522F0FE159B1FFF007FF96E /* DBRequestHelper.cpp in Sources */,
+				C503935916821F9C0025B96C /* RhoconnectClientManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = ../../shared;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fvisibility=hidden",
+				);
+				PRODUCT_NAME = rhosynclib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = ../../shared;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fvisibility=hidden",
+				);
+				PRODUCT_NAME = rhosynclib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../shared;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.2;
+				SYMROOT = ../build;
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../shared;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = ../build;
+			};
+			name = Release;
+		};
+		46B0043210332DD100D0C2F4 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../shared;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = ../build;
+			};
+			name = Distribution;
+		};
+		46B0043310332DD100D0C2F4 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = ../../shared;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fvisibility=hidden",
+				);
+				PRODUCT_NAME = rhosynclib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "rhosynclib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+				46B0043310332DD100D0C2F4 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "rhosynclib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+				46B0043210332DD100D0C2F4 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

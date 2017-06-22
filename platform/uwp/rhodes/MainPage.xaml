@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="rhodes.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:rhodes"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    SizeChanged="ApplicationPage_SizeChanged" Loaded="ApplicationPage_Loaded">
+<!--FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait" 
+    shell:SystemTray.IsVisible="True" BackKeyPress="PhoneApplicationPage_BackKeyPress" OrientationChanged="PhoneApplicationPage_OrientationChanged" SizeChanged="PhoneApplicationPage_SizeChanged" Loaded="PhoneApplicationPage_Loaded"  -->
+
+    <Page.TopAppBar>
+        <CommandBar x:Name="TopCommandBar">
+            <CommandBar.PrimaryCommands>
+                
+            </CommandBar.PrimaryCommands>
+        </CommandBar>
+    </Page.TopAppBar>
+
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="TabbarPanel" Grid.Row="0" Margin="0,0,0,0">
+            <Pivot x:Name="TabbarPivot" Height="Auto" Title="" Width="Auto" SelectionChanged="TabbarPivot_SelectionChanged">
+                <Pivot.HeaderTemplate>
+                    <DataTemplate>
+                        <StackPanel Background="{Binding Background}" Margin="0" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
+                            <Image Source="{Binding IconImage}" Height="Auto" Width="Auto"/>
+                            <TextBlock FontSize="26" Margin="0" Text="{Binding Label}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </Pivot.HeaderTemplate>
+            </Pivot>
+        </Grid>
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0,0,0,0">
+            <WebView x:Name="RhodesWebBrowser" Source="about:blank" Height="Auto" Width="Auto" SizeChanged="RhodesWebBrowser_SizeChanged" NavigationCompleted="RhodesWebBrowser_Navigated" NavigationFailed="RhodesWebBrowser_NavigationFailed" NavigationStarting="webViewNavigationStarting" LoadCompleted="RhodesWebBrowser_LoadCompleted" Loaded="RhodesWebBrowser_Loaded" Unloaded="RhodesWebBrowser_Unloaded"/>
+        </Grid>
+    </Grid>
+</Page>

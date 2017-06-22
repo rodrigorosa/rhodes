@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>rho.png</file>
+    </qresource>
+	<qresource prefix="/icons">
+        <file>favicon.ico</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,1194 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2481364D115A750000E3A9BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24813649115A750000E3A9BA /* main.m */; };
+		2481364E115A750000E3A9BA /* nsprintf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2481364B115A750000E3A9BA /* nsprintf.m */; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		FA2D0DCB18D118C80011692D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24813649115A750000E3A9BA /* main.m */; };
+		FA2D0DCC18D118C80011692D /* nsprintf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2481364B115A750000E3A9BA /* nsprintf.m */; };
+		FA2D0DCE18D118C80011692D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		FA42B43B14F58CC60046CED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24813649115A750000E3A9BA /* main.m */; };
+		FA42B43C14F58CC60046CED1 /* nsprintf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2481364B115A750000E3A9BA /* nsprintf.m */; };
+		FA42B43E14F58CC60046CED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		FA6CD4761B658D260016DA5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24813649115A750000E3A9BA /* main.m */; };
+		FA6CD4771B658D260016DA5D /* nsprintf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2481364B115A750000E3A9BA /* nsprintf.m */; };
+		FA6CD47A1B658D260016DA5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		FA6CD4861B658DBC0016DA5D /* iPhoneSimulator7.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6CD4851B658DBC0016DA5D /* iPhoneSimulator7.m */; };
+		FA6CD4881B658DC40016DA5D /* iPhoneSimulator7.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA6CD4871B658DC40016DA5D /* iPhoneSimulator7.mm */; };
+		FA6CD4891B658F7A0016DA5D /* iPhoneSimulator6.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA650197D4B2C008A0B0F /* iPhoneSimulator6.mm */; };
+		FA7FA6281977FD66008A0B0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24813649115A750000E3A9BA /* main.m */; };
+		FA7FA6291977FD66008A0B0F /* nsprintf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2481364B115A750000E3A9BA /* nsprintf.m */; };
+		FA7FA62B1977FD66008A0B0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		FA7FA655197D4B47008A0B0F /* iPhoneSimulator6.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA654197D4B47008A0B0F /* iPhoneSimulator6.m */; };
+		FA7FA656197D4C3E008A0B0F /* iPhoneSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24813648115A750000E3A9BA /* iPhoneSimulator.m */; };
+		FA7FA657197D4C3F008A0B0F /* iPhoneSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24813648115A750000E3A9BA /* iPhoneSimulator.m */; };
+		FA7FA658197D4C3F008A0B0F /* iPhoneSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24813648115A750000E3A9BA /* iPhoneSimulator.m */; };
+		FA96615F1D36AB160068FAE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24813649115A750000E3A9BA /* main.m */; };
+		FA9661601D36AB160068FAE3 /* nsprintf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2481364B115A750000E3A9BA /* nsprintf.m */; };
+		FA9661641D36AB160068FAE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		FA9661731D36ABFA0068FAE3 /* iPhoneSimulator8.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA96616E1D36ABF40068FAE3 /* iPhoneSimulator8.mm */; };
+		FA9661741D36ABFE0068FAE3 /* iPhoneSimulator8.m in Sources */ = {isa = PBXBuildFile; fileRef = FA96616F1D36ABF40068FAE3 /* iPhoneSimulator8.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FA2D0DCF18D118C80011692D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FA42B43F14F58CC60046CED1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FA6CD47B1B658D260016DA5D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FA7FA62C1977FD66008A0B0F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FA9661651D36AB160068FAE3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		24813647115A750000E3A9BA /* iPhoneSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhoneSimulator.h; path = Source/iPhoneSimulator.h; sourceTree = "<group>"; };
+		24813648115A750000E3A9BA /* iPhoneSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhoneSimulator.m; path = Source/iPhoneSimulator.m; sourceTree = "<group>"; };
+		24813649115A750000E3A9BA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = "<group>"; };
+		2481364A115A750000E3A9BA /* nsprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nsprintf.h; path = Source/nsprintf.h; sourceTree = "<group>"; };
+		2481364B115A750000E3A9BA /* nsprintf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nsprintf.m; path = Source/nsprintf.m; sourceTree = "<group>"; };
+		32A70AAB03705E1F00C91783 /* iphonesim_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iphonesim_Prefix.pch; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* iphonesim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iphonesim; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0F6AA418D134B50030C127 /* DVTiPhoneSimulatorRemoteClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTiPhoneSimulatorRemoteClient.h; path = DVTiPhoneSimulatorRemoteClient/DVTiPhoneSimulatorRemoteClient.h; sourceTree = "<group>"; };
+		FA28F9AE12B9946000597425 /* iPhoneSimulatorRemoteClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhoneSimulatorRemoteClient.h; path = iPhoneSimulatorRemoteClient/iPhoneSimulatorRemoteClient.h; sourceTree = "<group>"; };
+		FA2D0DD318D118C80011692D /* iphonesim_51 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iphonesim_51; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA42B44314F58CC60046CED1 /* iphonesim_43 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iphonesim_43; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6CD47F1B658D260016DA5D /* iphonesim_7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iphonesim_7; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6CD4811B658D480016DA5D /* CoreSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreSimulator.h; sourceTree = "<group>"; };
+		FA6CD4821B658D480016DA5D /* DVTFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTFoundation.h; sourceTree = "<group>"; };
+		FA6CD4831B658D480016DA5D /* DVTiPhoneSimulatorRemoteClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTiPhoneSimulatorRemoteClient.h; sourceTree = "<group>"; };
+		FA6CD4841B658DAC0016DA5D /* iPhoneSimulator7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhoneSimulator7.h; path = Source/iPhoneSimulator7.h; sourceTree = "<group>"; };
+		FA6CD4851B658DBC0016DA5D /* iPhoneSimulator7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhoneSimulator7.m; path = Source/iPhoneSimulator7.m; sourceTree = "<group>"; };
+		FA6CD4871B658DC40016DA5D /* iPhoneSimulator7.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = iPhoneSimulator7.mm; path = Source/iPhoneSimulator7.mm; sourceTree = "<group>"; };
+		FA7FA6301977FD66008A0B0F /* iphonesim_6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iphonesim_6; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7FA650197D4B2C008A0B0F /* iPhoneSimulator6.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = iPhoneSimulator6.mm; path = Source/iPhoneSimulator6.mm; sourceTree = "<group>"; };
+		FA7FA653197D4B47008A0B0F /* iPhoneSimulator6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhoneSimulator6.h; path = Source/iPhoneSimulator6.h; sourceTree = "<group>"; };
+		FA7FA654197D4B47008A0B0F /* iPhoneSimulator6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhoneSimulator6.m; path = Source/iPhoneSimulator6.m; sourceTree = "<group>"; };
+		FA7FA65A197D4E16008A0B0F /* DVTiPhoneSimulatorRemoteClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTiPhoneSimulatorRemoteClient.h; path = XCode6/DVTiPhoneSimulatorRemoteClient.h; sourceTree = "<group>"; };
+		FA7FA65B197D4E16008A0B0F /* CoreSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreSimulator.h; path = XCode6/CoreSimulator.h; sourceTree = "<group>"; };
+		FA7FA65C197D4E16008A0B0F /* DVTFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTFoundation.h; path = XCode6/DVTFoundation.h; sourceTree = "<group>"; };
+		FA9661691D36AB160068FAE3 /* iphonesim_8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iphonesim_8; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA96616B1D36AB2A0068FAE3 /* CoreSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreSimulator.h; sourceTree = "<group>"; };
+		FA96616C1D36AB2A0068FAE3 /* DVTFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTFoundation.h; sourceTree = "<group>"; };
+		FA96616D1D36AB2A0068FAE3 /* DVTiPhoneSimulatorRemoteClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTiPhoneSimulatorRemoteClient.h; sourceTree = "<group>"; };
+		FA96616E1D36ABF40068FAE3 /* iPhoneSimulator8.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = iPhoneSimulator8.mm; path = Source/iPhoneSimulator8.mm; sourceTree = "<group>"; };
+		FA96616F1D36ABF40068FAE3 /* iPhoneSimulator8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhoneSimulator8.m; path = Source/iPhoneSimulator8.m; sourceTree = "<group>"; };
+		FA9661701D36ABF40068FAE3 /* iPhoneSimulator8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhoneSimulator8.h; path = Source/iPhoneSimulator8.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2D0DCD18D118C80011692D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2D0DCE18D118C80011692D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA42B43D14F58CC60046CED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA42B43E14F58CC60046CED1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6CD4791B658D260016DA5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6CD47A1B658D260016DA5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7FA62A1977FD66008A0B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7FA62B1977FD66008A0B0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9661631D36AB160068FAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9661641D36AB160068FAE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* iphonesim */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = iphonesim;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FA96616E1D36ABF40068FAE3 /* iPhoneSimulator8.mm */,
+				FA96616F1D36ABF40068FAE3 /* iPhoneSimulator8.m */,
+				FA9661701D36ABF40068FAE3 /* iPhoneSimulator8.h */,
+				FA96616A1D36AB2A0068FAE3 /* XCode8 */,
+				FA6CD4871B658DC40016DA5D /* iPhoneSimulator7.mm */,
+				FA6CD4851B658DBC0016DA5D /* iPhoneSimulator7.m */,
+				FA6CD4841B658DAC0016DA5D /* iPhoneSimulator7.h */,
+				FA6CD4801B658D480016DA5D /* XCode7 */,
+				FA7FA659197D4E08008A0B0F /* Xcode6 */,
+				FA7FA653197D4B47008A0B0F /* iPhoneSimulator6.h */,
+				FA7FA654197D4B47008A0B0F /* iPhoneSimulator6.m */,
+				FA7FA650197D4B2C008A0B0F /* iPhoneSimulator6.mm */,
+				FA0F6AA418D134B50030C127 /* DVTiPhoneSimulatorRemoteClient.h */,
+				FA28F9AE12B9946000597425 /* iPhoneSimulatorRemoteClient.h */,
+				24813647115A750000E3A9BA /* iPhoneSimulator.h */,
+				24813648115A750000E3A9BA /* iPhoneSimulator.m */,
+				24813649115A750000E3A9BA /* main.m */,
+				2481364A115A750000E3A9BA /* nsprintf.h */,
+				2481364B115A750000E3A9BA /* nsprintf.m */,
+				32A70AAB03705E1F00C91783 /* iphonesim_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* iphonesim */,
+				FA42B44314F58CC60046CED1 /* iphonesim_43 */,
+				FA2D0DD318D118C80011692D /* iphonesim_51 */,
+				FA7FA6301977FD66008A0B0F /* iphonesim_6 */,
+				FA6CD47F1B658D260016DA5D /* iphonesim_7 */,
+				FA9661691D36AB160068FAE3 /* iphonesim_8 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6CD4801B658D480016DA5D /* XCode7 */ = {
+			isa = PBXGroup;
+			children = (
+				FA6CD4811B658D480016DA5D /* CoreSimulator.h */,
+				FA6CD4821B658D480016DA5D /* DVTFoundation.h */,
+				FA6CD4831B658D480016DA5D /* DVTiPhoneSimulatorRemoteClient.h */,
+			);
+			path = XCode7;
+			sourceTree = "<group>";
+		};
+		FA7FA659197D4E08008A0B0F /* Xcode6 */ = {
+			isa = PBXGroup;
+			children = (
+				FA7FA65A197D4E16008A0B0F /* DVTiPhoneSimulatorRemoteClient.h */,
+				FA7FA65B197D4E16008A0B0F /* CoreSimulator.h */,
+				FA7FA65C197D4E16008A0B0F /* DVTFoundation.h */,
+			);
+			name = Xcode6;
+			sourceTree = "<group>";
+		};
+		FA96616A1D36AB2A0068FAE3 /* XCode8 */ = {
+			isa = PBXGroup;
+			children = (
+				FA96616B1D36AB2A0068FAE3 /* CoreSimulator.h */,
+				FA96616C1D36AB2A0068FAE3 /* DVTFoundation.h */,
+				FA96616D1D36AB2A0068FAE3 /* DVTiPhoneSimulatorRemoteClient.h */,
+			);
+			path = XCode8;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* iphonesim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "iphonesim" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iphonesim;
+			productInstallPath = "$(HOME)/bin";
+			productName = iphonesim;
+			productReference = 8DD76FA10486AA7600D96B5E /* iphonesim */;
+			productType = "com.apple.product-type.tool";
+		};
+		FA2D0DC818D118C80011692D /* iphonesim_51 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2D0DD018D118C80011692D /* Build configuration list for PBXNativeTarget "iphonesim_51" */;
+			buildPhases = (
+				FA2D0DC918D118C80011692D /* Sources */,
+				FA2D0DCD18D118C80011692D /* Frameworks */,
+				FA2D0DCF18D118C80011692D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iphonesim_51;
+			productInstallPath = "$(HOME)/bin";
+			productName = iphonesim;
+			productReference = FA2D0DD318D118C80011692D /* iphonesim_51 */;
+			productType = "com.apple.product-type.tool";
+		};
+		FA42B43814F58CC60046CED1 /* iphonesim_43 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA42B44014F58CC60046CED1 /* Build configuration list for PBXNativeTarget "iphonesim_43" */;
+			buildPhases = (
+				FA42B43914F58CC60046CED1 /* Sources */,
+				FA42B43D14F58CC60046CED1 /* Frameworks */,
+				FA42B43F14F58CC60046CED1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iphonesim_43;
+			productInstallPath = "$(HOME)/bin";
+			productName = iphonesim;
+			productReference = FA42B44314F58CC60046CED1 /* iphonesim_43 */;
+			productType = "com.apple.product-type.tool";
+		};
+		FA6CD4731B658D260016DA5D /* iphonesim_7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6CD47C1B658D260016DA5D /* Build configuration list for PBXNativeTarget "iphonesim_7" */;
+			buildPhases = (
+				FA6CD4741B658D260016DA5D /* Sources */,
+				FA6CD4791B658D260016DA5D /* Frameworks */,
+				FA6CD47B1B658D260016DA5D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iphonesim_7;
+			productInstallPath = "$(HOME)/bin";
+			productName = iphonesim;
+			productReference = FA6CD47F1B658D260016DA5D /* iphonesim_7 */;
+			productType = "com.apple.product-type.tool";
+		};
+		FA7FA6251977FD66008A0B0F /* iphonesim_6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7FA62D1977FD66008A0B0F /* Build configuration list for PBXNativeTarget "iphonesim_6" */;
+			buildPhases = (
+				FA7FA6261977FD66008A0B0F /* Sources */,
+				FA7FA62A1977FD66008A0B0F /* Frameworks */,
+				FA7FA62C1977FD66008A0B0F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iphonesim_6;
+			productInstallPath = "$(HOME)/bin";
+			productName = iphonesim;
+			productReference = FA7FA6301977FD66008A0B0F /* iphonesim_6 */;
+			productType = "com.apple.product-type.tool";
+		};
+		FA96615D1D36AB160068FAE3 /* iphonesim_8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9661661D36AB160068FAE3 /* Build configuration list for PBXNativeTarget "iphonesim_8" */;
+			buildPhases = (
+				FA96615E1D36AB160068FAE3 /* Sources */,
+				FA9661631D36AB160068FAE3 /* Frameworks */,
+				FA9661651D36AB160068FAE3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iphonesim_8;
+			productInstallPath = "$(HOME)/bin";
+			productName = iphonesim;
+			productReference = FA9661691D36AB160068FAE3 /* iphonesim_8 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					FA6CD4731B658D260016DA5D = {
+						DevelopmentTeam = PNQRMU2LPM;
+						DevelopmentTeamName = "Dmitry Soldatenkov";
+						ProvisioningStyle = Automatic;
+					};
+					FA96615D1D36AB160068FAE3 = {
+						DevelopmentTeam = PNQRMU2LPM;
+						DevelopmentTeamName = "Dmitry Soldatenkov";
+					};
+				};
+			};
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "iphonesim" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* iphonesim */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* iphonesim */,
+				FA42B43814F58CC60046CED1 /* iphonesim_43 */,
+				FA2D0DC818D118C80011692D /* iphonesim_51 */,
+				FA7FA6251977FD66008A0B0F /* iphonesim_6 */,
+				FA6CD4731B658D260016DA5D /* iphonesim_7 */,
+				FA96615D1D36AB160068FAE3 /* iphonesim_8 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2481364D115A750000E3A9BA /* main.m in Sources */,
+				2481364E115A750000E3A9BA /* nsprintf.m in Sources */,
+				FA7FA658197D4C3F008A0B0F /* iPhoneSimulator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2D0DC918D118C80011692D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2D0DCB18D118C80011692D /* main.m in Sources */,
+				FA2D0DCC18D118C80011692D /* nsprintf.m in Sources */,
+				FA7FA656197D4C3E008A0B0F /* iPhoneSimulator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA42B43914F58CC60046CED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA42B43B14F58CC60046CED1 /* main.m in Sources */,
+				FA42B43C14F58CC60046CED1 /* nsprintf.m in Sources */,
+				FA7FA657197D4C3F008A0B0F /* iPhoneSimulator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6CD4741B658D260016DA5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6CD4761B658D260016DA5D /* main.m in Sources */,
+				FA6CD4771B658D260016DA5D /* nsprintf.m in Sources */,
+				FA6CD4881B658DC40016DA5D /* iPhoneSimulator7.mm in Sources */,
+				FA6CD4861B658DBC0016DA5D /* iPhoneSimulator7.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7FA6261977FD66008A0B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6CD4891B658F7A0016DA5D /* iPhoneSimulator6.mm in Sources */,
+				FA7FA6281977FD66008A0B0F /* main.m in Sources */,
+				FA7FA6291977FD66008A0B0F /* nsprintf.m in Sources */,
+				FA7FA655197D4B47008A0B0F /* iPhoneSimulator6.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA96615E1D36AB160068FAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9661741D36ABFE0068FAE3 /* iPhoneSimulator8.m in Sources */,
+				FA96615F1D36AB160068FAE3 /* main.m in Sources */,
+				FA9661601D36AB160068FAE3 /* nsprintf.m in Sources */,
+				FA9661731D36ABFA0068FAE3 /* iPhoneSimulator8.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iphonesim_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = iphonesim;
+				WARNING_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-framework",
+					iPhoneSimulatorRemoteClient,
+					"-Wl,-rpath",
+					"-Wl,/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iphonesim_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = iphonesim;
+				WARNING_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-framework",
+					iPhoneSimulatorRemoteClient,
+					"-Wl,-rpath",
+					"-Wl,/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+				);
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = /Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = .;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-framework",
+					iPhoneSimulatorRemoteClient,
+					"-Wl,-rpath",
+					"-Wl,/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = /Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = .;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-framework",
+					iPhoneSimulatorRemoteClient,
+					"-Wl,-rpath",
+					"-Wl,/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		FA2D0DD118D118C80011692D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks,
+					"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iphonesim_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+				PRODUCT_NAME = iphonesim_51;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+				WARNING_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		FA2D0DD218D118C80011692D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks,
+					"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iphonesim_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+				PRODUCT_NAME = iphonesim_51;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+				WARNING_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+			};
+			name = Release;
+		};
+		FA42B44114F58CC60046CED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iphonesim_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-framework",
+					iPhoneSimulatorRemoteClient,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+				);
+				PRODUCT_NAME = iphonesim_43;
+				WARNING_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-framework",
+					iPhoneSimulatorRemoteClient,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		FA42B44214F58CC60046CED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iphonesim_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-framework",
+					iPhoneSimulatorRemoteClient,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+				);
+				PRODUCT_NAME = iphonesim_43;
+				WARNING_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-framework",
+					iPhoneSimulatorRemoteClient,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+				);
+			};
+			name = Release;
+		};
+		FA6CD47D1B658D260016DA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks,
+					"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iphonesim_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+				WARNING_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		FA6CD47E1B658D260016DA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks,
+					"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iphonesim_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+				WARNING_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+			};
+			name = Release;
+		};
+		FA7FA62E1977FD66008A0B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks,
+					"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iphonesim_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+				PRODUCT_NAME = iphonesim_6;
+				SDKROOT = macosx10.10;
+				VALID_ARCHS = x86_64;
+				WARNING_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		FA7FA62F1977FD66008A0B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks,
+					"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iphonesim_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+				PRODUCT_NAME = iphonesim_6;
+				SDKROOT = macosx10.10;
+				VALID_ARCHS = x86_64;
+				WARNING_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+			};
+			name = Release;
+		};
+		FA9661671D36AB160068FAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks,
+					"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iphonesim_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-framework",
+					DVTKit,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+				WARNING_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		FA9661681D36AB160068FAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks,
+					"$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iphonesim_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-framework",
+					DVTKit,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+				WARNING_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-F$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-F$(DEVELOPER_DIR)/../SharedFrameworks",
+					"-framework",
+					DVTiPhoneSimulatorRemoteClient,
+					"-framework",
+					DVTFoundation,
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../OtherFrameworks",
+					"-Wl,-rpath",
+					"-Wl,$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "iphonesim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "iphonesim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2D0DD018D118C80011692D /* Build configuration list for PBXNativeTarget "iphonesim_51" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2D0DD118D118C80011692D /* Debug */,
+				FA2D0DD218D118C80011692D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA42B44014F58CC60046CED1 /* Build configuration list for PBXNativeTarget "iphonesim_43" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA42B44114F58CC60046CED1 /* Debug */,
+				FA42B44214F58CC60046CED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6CD47C1B658D260016DA5D /* Build configuration list for PBXNativeTarget "iphonesim_7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6CD47D1B658D260016DA5D /* Debug */,
+				FA6CD47E1B658D260016DA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7FA62D1977FD66008A0B0F /* Build configuration list for PBXNativeTarget "iphonesim_6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7FA62E1977FD66008A0B0F /* Debug */,
+				FA7FA62F1977FD66008A0B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9661661D36AB160068FAE3 /* Build configuration list for PBXNativeTarget "iphonesim_8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9661671D36AB160068FAE3 /* Debug */,
+				FA9661681D36AB160068FAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

@@ -1,0 +1,22 @@
+## 1.0.6
+* Step Into / Step Over commands fixed
+
+## 1.0.5
+* Unnecessary warnings removed from application log
+
+## 1.0.4
+* Debugger low level messages excluded from application log
+
+## 1.0.3
+* Fix working with Ruby 1.9.2
+
+## 1.0.2
+* Change debug port parameter name
+* Fix issue with run from Rhosync
+
+## 1.0.1
+* Fix issue with Windows 7 and Ruby 1.8.7
+* Add support for RhoSync debug
+
+## 1.0.0
+* RhoStudio customization to support debugger

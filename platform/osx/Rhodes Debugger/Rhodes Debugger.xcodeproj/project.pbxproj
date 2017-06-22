@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		7305975010D0752A00035930 /* LogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7305974F10D0752A00035930 /* LogController.m */; };
+		7305975310D0779600035930 /* DebuggerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7305975110D0779600035930 /* DebuggerController.m */; };
+		73059AE010D1D32900035930 /* ruby in Resources */ = {isa = PBXBuildFile; fileRef = 73059ADF10D1D32900035930 /* ruby */; };
+		731F86E910D2BCBF003076FC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731F86E810D2BCBF003076FC /* WebKit.framework */; };
+		731F879110D2D0F6003076FC /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 731F878E10D2D0F6003076FC /* DataSource.m */; };
+		731F879210D2D0F6003076FC /* FileSystemItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 731F879010D2D0F6003076FC /* FileSystemItem.m */; };
+		73798D8E10D6ED0D006035F7 /* DebugConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 73798D8D10D6ED0D006035F7 /* DebugConnection.m */; };
+		73798D9510D6F99C006035F7 /* GdbConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 73798D9410D6F99C006035F7 /* GdbConnection.m */; };
+		73798F9310D80709006035F7 /* TcpConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 73798F9210D80709006035F7 /* TcpConnection.m */; };
+		73A1AE1E10D2F1BA001CB186 /* SourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A1AE1710D2F1BA001CB186 /* SourceViewController.m */; };
+		73A1AE1F10D2F1BA001CB186 /* MarkerLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A1AE1910D2F1BA001CB186 /* MarkerLineNumberView.m */; };
+		73A1AE2010D2F1BA001CB186 /* NoodleLineNumberMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A1AE1B10D2F1BA001CB186 /* NoodleLineNumberMarker.m */; };
+		73A1AE2110D2F1BA001CB186 /* NoodleLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A1AE1D10D2F1BA001CB186 /* NoodleLineNumberView.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Rhodes Debugger_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rhodes Debugger_Prefix.pch"; sourceTree = "<group>"; };
+		7305974E10D0752A00035930 /* LogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogController.h; sourceTree = "<group>"; };
+		7305974F10D0752A00035930 /* LogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogController.m; sourceTree = "<group>"; };
+		7305975110D0779600035930 /* DebuggerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebuggerController.m; sourceTree = "<group>"; };
+		7305975210D0779600035930 /* DebuggerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebuggerController.h; sourceTree = "<group>"; };
+		73059ADF10D1D32900035930 /* ruby */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ruby; sourceTree = "<group>"; };
+		731F86E810D2BCBF003076FC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		731F878D10D2D0F6003076FC /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		731F878E10D2D0F6003076FC /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		731F878F10D2D0F6003076FC /* FileSystemItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSystemItem.h; sourceTree = "<group>"; };
+		731F879010D2D0F6003076FC /* FileSystemItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSystemItem.m; sourceTree = "<group>"; };
+		73798D8C10D6ED0D006035F7 /* DebugConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugConnection.h; sourceTree = "<group>"; };
+		73798D8D10D6ED0D006035F7 /* DebugConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugConnection.m; sourceTree = "<group>"; };
+		73798D9310D6F99C006035F7 /* GdbConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GdbConnection.h; sourceTree = "<group>"; };
+		73798D9410D6F99C006035F7 /* GdbConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GdbConnection.m; sourceTree = "<group>"; };
+		73798F9110D80709006035F7 /* TcpConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpConnection.h; sourceTree = "<group>"; };
+		73798F9210D80709006035F7 /* TcpConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TcpConnection.m; sourceTree = "<group>"; };
+		73A1AE1610D2F1BA001CB186 /* SourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceViewController.h; sourceTree = "<group>"; };
+		73A1AE1710D2F1BA001CB186 /* SourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceViewController.m; sourceTree = "<group>"; };
+		73A1AE1810D2F1BA001CB186 /* MarkerLineNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerLineNumberView.h; sourceTree = "<group>"; };
+		73A1AE1910D2F1BA001CB186 /* MarkerLineNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerLineNumberView.m; sourceTree = "<group>"; };
+		73A1AE1A10D2F1BA001CB186 /* NoodleLineNumberMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoodleLineNumberMarker.h; sourceTree = "<group>"; };
+		73A1AE1B10D2F1BA001CB186 /* NoodleLineNumberMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoodleLineNumberMarker.m; sourceTree = "<group>"; };
+		73A1AE1C10D2F1BA001CB186 /* NoodleLineNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoodleLineNumberView.h; sourceTree = "<group>"; };
+		73A1AE1D10D2F1BA001CB186 /* NoodleLineNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoodleLineNumberView.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Rhodes Debugger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rhodes Debugger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				731F86E910D2BCBF003076FC /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				73A1AE1310D2F1A5001CB186 /* Line Numbering */,
+				731F879310D2D0FB003076FC /* File */,
+				7305975110D0779600035930 /* DebuggerController.m */,
+				7305975210D0779600035930 /* DebuggerController.h */,
+				7305974E10D0752A00035930 /* LogController.h */,
+				7305974F10D0752A00035930 /* LogController.m */,
+				73798D8C10D6ED0D006035F7 /* DebugConnection.h */,
+				73798D8D10D6ED0D006035F7 /* DebugConnection.m */,
+				73798D9310D6F99C006035F7 /* GdbConnection.h */,
+				73798D9410D6F99C006035F7 /* GdbConnection.m */,
+				73798F9110D80709006035F7 /* TcpConnection.h */,
+				73798F9210D80709006035F7 /* TcpConnection.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				731F86E810D2BCBF003076FC /* WebKit.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Rhodes Debugger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Rhodes Debugger */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Rhodes Debugger";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Rhodes Debugger_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73059ADF10D1D32900035930 /* ruby */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		731F879310D2D0FB003076FC /* File */ = {
+			isa = PBXGroup;
+			children = (
+				731F878F10D2D0F6003076FC /* FileSystemItem.h */,
+				731F879010D2D0F6003076FC /* FileSystemItem.m */,
+				731F878D10D2D0F6003076FC /* DataSource.h */,
+				731F878E10D2D0F6003076FC /* DataSource.m */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		73A1AE1310D2F1A5001CB186 /* Line Numbering */ = {
+			isa = PBXGroup;
+			children = (
+				73A1AE1610D2F1BA001CB186 /* SourceViewController.h */,
+				73A1AE1710D2F1BA001CB186 /* SourceViewController.m */,
+				73A1AE1810D2F1BA001CB186 /* MarkerLineNumberView.h */,
+				73A1AE1910D2F1BA001CB186 /* MarkerLineNumberView.m */,
+				73A1AE1A10D2F1BA001CB186 /* NoodleLineNumberMarker.h */,
+				73A1AE1B10D2F1BA001CB186 /* NoodleLineNumberMarker.m */,
+				73A1AE1C10D2F1BA001CB186 /* NoodleLineNumberView.h */,
+				73A1AE1D10D2F1BA001CB186 /* NoodleLineNumberView.m */,
+			);
+			name = "Line Numbering";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Rhodes Debugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Rhodes Debugger" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rhodes Debugger";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Rhodes Debugger";
+			productReference = 8D1107320486CEB800E47090 /* Rhodes Debugger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Rhodes Debugger" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Rhodes Debugger */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Rhodes Debugger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				73059AE010D1D32900035930 /* ruby in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				7305975010D0752A00035930 /* LogController.m in Sources */,
+				7305975310D0779600035930 /* DebuggerController.m in Sources */,
+				731F879110D2D0F6003076FC /* DataSource.m in Sources */,
+				731F879210D2D0F6003076FC /* FileSystemItem.m in Sources */,
+				73A1AE1E10D2F1BA001CB186 /* SourceViewController.m in Sources */,
+				73A1AE1F10D2F1BA001CB186 /* MarkerLineNumberView.m in Sources */,
+				73A1AE2010D2F1BA001CB186 /* NoodleLineNumberMarker.m in Sources */,
+				73A1AE2110D2F1BA001CB186 /* NoodleLineNumberView.m in Sources */,
+				73798D8E10D6ED0D006035F7 /* DebugConnection.m in Sources */,
+				73798D9510D6F99C006035F7 /* GdbConnection.m in Sources */,
+				73798F9310D80709006035F7 /* TcpConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rhodes Debugger_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Rhodes Debugger";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rhodes Debugger_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Rhodes Debugger";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Rhodes Debugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Rhodes Debugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

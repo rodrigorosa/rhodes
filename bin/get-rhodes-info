@@ -1,0 +1,41 @@
+#!/usr/bin/env ruby
+
+if ARGV && ARGV.size > 0 && ARGV[0] == "--rhodes-path"
+    currDir = File.dirname(__FILE__)
+    Dir.chdir(currDir)
+    Dir.chdir("..")
+    puts Dir.pwd
+    exit(0)    
+end
+
+require File.join(File.dirname(__FILE__), '..', 'lib', 'rhodes')
+
+params = ["--rhodes-ver"]
+
+def findParam(paramArray, paramId)
+   i=0
+   until i == paramArray.size do
+
+     param = paramArray[i]
+     paramPair = param.split('=')
+
+     if paramPair.size > 1
+       if paramId == paramPair[0] then
+         return paramPair[1].to_s
+       end 
+     end
+
+     i += 1
+   end
+
+   return nil
+end
+
+requestVer = findParam(ARGV, params[0])
+
+if requestVer <= Rhodes::VERSION
+  puts 1
+else
+  puts 0
+end
+

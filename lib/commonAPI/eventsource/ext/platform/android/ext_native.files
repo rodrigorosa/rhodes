@@ -1,0 +1,8 @@
+ext/shared/generated/cpp/EventSource_js_wrap.cpp
+ext/shared/generated/cpp/EventSource_ruby_wrap.cpp
+ext/shared/generated/cpp/EventSourceBase.cpp
+ext/shared/generated/eventsource_api_init.cpp
+ext/shared/generated/eventsource_js_api.cpp
+ext/shared/generated/eventsource_ruby_api.c
+ext/shared/EventSource.cpp
+ext/shared/eventsource_impl.cpp

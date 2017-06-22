@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="mcimages">
+        <file>diaClosed.png</file>
+		<file>diaOpened.png</file>
+		<file>photoSave.png</file>
+		<file>buttonBack.png</file>
+    </qresource>
+</RCC>

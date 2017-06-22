@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="extensions/gcm-push/ext/android/src"/>
+	<classpathentry kind="src" path="barcode/ext/platform/android/generated/src"/>
+	<classpathentry kind="src" path="barcode/ext/platform/android/src"/>
+	<classpathentry kind="src" path="Implementation/src"/>
+	<classpathentry kind="src" path="rhoelementsext/ext/rhoelementsext/platform/android/src"/>
+	<classpathentry kind="src" path="api_generator_spec/extensions/simpleonlystaticmodule/ext/platform/android/generated/src"/>
+	<classpathentry kind="src" path="commonAPI/coreapi/ext/platform/android/generated/src"/>
+	<classpathentry kind="src" path="commonAPI/coreapi/ext/platform/android/src"/>
+	<classpathentry kind="src" path="commonAPI/mediacapture/ext/platform/android/generated/src"/>
+	<classpathentry kind="src" path="commonAPI/mediacapture/ext/platform/android/src"/>
+	<classpathentry kind="src" path="js_spec_extensions/genPropBag/ext/platform/android/generated/src"/>
+	<classpathentry kind="src" path="js_spec_extensions/genPropBag/ext/platform/android/src"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="/Library/Android/android-sdk-mac_x86/extras/google/gcm/gcm-client/dist/gcm.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

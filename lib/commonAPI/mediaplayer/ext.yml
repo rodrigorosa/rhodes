@@ -1,0 +1,23 @@
+entry: Init_Mediaplayer_extension
+javaentry: com.mediaplayer.Mediaplayer
+libraries: ["Mediaplayer"]
+android:
+  source_list: ext/platform/android/ext_java.files
+  rhodes_listener: com.rho.mediaplayer.MediaplayerRhoListener
+  exttype: rakefile
+wp8:
+  csharp_impl: yes
+  root_namespace: rho
+uwp:
+  csharp_impl: yes
+  root_namespace: rho
+
+project_paths:
+  wp8: ext/platform/wp8/MediaplayerLib.vcxproj
+  uwp: ext/platform/uwp/MediaplayerLib.vcxproj
+  wm: ext/platform/wm/Mediaplayer.vcproj
+  win32: ext/platform/wm/Mediaplayer.vcproj
+  
+xml_api_paths: ext/mediaplayer.xml
+
+platforms: ["wm", "iphone", "android", "uwp"]

@@ -1,0 +1,912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C0F94DF132979140093FA1B /* RhoTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F94DE132979140093FA1B /* RhoTime.cpp */; };
+		5C2CE15C122ACA9E005EDBC4 /* RhoAppAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C2CE15B122ACA9E005EDBC4 /* RhoAppAdapter.cpp */; };
+		5C2CE255122AEC87005EDBC4 /* RhoAppAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2CE254122AEC87005EDBC4 /* RhoAppAdapter.h */; };
+		5C5335530FC2977600F268F0 /* IRhoThreadImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5335500FC2977600F268F0 /* IRhoThreadImpl.h */; };
+		5C5335540FC2977600F268F0 /* RhoThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C5335510FC2977600F268F0 /* RhoThread.cpp */; };
+		5C5335550FC2977600F268F0 /* RhoThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5335520FC2977600F268F0 /* RhoThread.h */; };
+		5C59BF4D115B4BC300E96ADE /* unzip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C59BF4B115B4BC300E96ADE /* unzip.cpp */; };
+		5C59BF4E115B4BC300E96ADE /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C59BF4C115B4BC300E96ADE /* unzip.h */; };
+		5C663BEA11F3712C005F60AF /* RhodesAppBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C663BE711F3712C005F60AF /* RhodesAppBase.cpp */; };
+		5C663BEB11F3712C005F60AF /* RhodesAppBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C663BE811F3712C005F60AF /* RhodesAppBase.h */; };
+		5C6855EA10A02EAA008DA047 /* RhodesApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6855E710A02EAA008DA047 /* RhodesApp.h */; };
+		5C6B448C0F946589003CB43A /* RhoConf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C6B448A0F946589003CB43A /* RhoConf.cpp */; };
+		5C6B448D0F946589003CB43A /* RhoConf.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6B448B0F946589003CB43A /* RhoConf.h */; };
+		5C6B452C0F9468E2003CB43A /* RhoProfiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C6B452A0F9468E2003CB43A /* RhoProfiler.cpp */; };
+		5C6B452D0F9468E2003CB43A /* RhoProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6B452B0F9468E2003CB43A /* RhoProfiler.h */; };
+		5C71626F0F8B7E170096B6AA /* RhoDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7162640F8B7E170096B6AA /* RhoDefs.h */; };
+		5C7162700F8B7E170096B6AA /* RhoFatalError.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7162650F8B7E170096B6AA /* RhoFatalError.h */; };
+		5C7162710F8B7E170096B6AA /* RhoFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C7162660F8B7E170096B6AA /* RhoFile.cpp */; };
+		5C7162720F8B7E170096B6AA /* RhoFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7162670F8B7E170096B6AA /* RhoFile.h */; };
+		5C7162730F8B7E170096B6AA /* RhoFilePath.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7162680F8B7E170096B6AA /* RhoFilePath.h */; };
+		5C7162740F8B7E170096B6AA /* RhoMutexLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7162690F8B7E170096B6AA /* RhoMutexLock.h */; };
+		5C7162750F8B7E170096B6AA /* RhoPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C71626A0F8B7E170096B6AA /* RhoPort.h */; };
+		5C7162760F8B7E170096B6AA /* RhoStd.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C71626B0F8B7E170096B6AA /* RhoStd.h */; };
+		5C7162770F8B7E170096B6AA /* RhoSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C71626C0F8B7E170096B6AA /* RhoSystem.h */; };
+		5C7162780F8B7E170096B6AA /* RhoTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C71626D0F8B7E170096B6AA /* RhoTime.h */; };
+		5C7162790F8B7E170096B6AA /* StringConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C71626E0F8B7E170096B6AA /* StringConverter.h */; };
+		5C7162830F8B7E330096B6AA /* RhoLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C71627A0F8B7E330096B6AA /* RhoLog.cpp */; };
+		5C7162840F8B7E330096B6AA /* RhoLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C71627B0F8B7E330096B6AA /* RhoLog.h */; };
+		5C7162850F8B7E330096B6AA /* RhoLogCat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C71627C0F8B7E330096B6AA /* RhoLogCat.h */; };
+		5C7162860F8B7E330096B6AA /* RhoLogConf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C71627D0F8B7E330096B6AA /* RhoLogConf.cpp */; };
+		5C7162870F8B7E330096B6AA /* RhoLogConf.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C71627E0F8B7E330096B6AA /* RhoLogConf.h */; };
+		5C7162880F8B7E330096B6AA /* RhoLogSink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C71627F0F8B7E330096B6AA /* RhoLogSink.cpp */; };
+		5C7162890F8B7E330096B6AA /* RhoLogSink.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7162800F8B7E330096B6AA /* RhoLogSink.h */; };
+		5C71628A0F8B7E330096B6AA /* RhoPlainLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C7162810F8B7E330096B6AA /* RhoPlainLog.cpp */; };
+		5C7405921064AF1600163569 /* Tokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C7405901064AF1600163569 /* Tokenizer.cpp */; };
+		5C7405931064AF1600163569 /* Tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7405911064AF1600163569 /* Tokenizer.h */; };
+		5C798934113BD148005F8736 /* GeoLocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C798932113BD148005F8736 /* GeoLocation.cpp */; };
+		5C798935113BD148005F8736 /* GeoLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C798933113BD148005F8736 /* GeoLocation.h */; };
+		5C98174C0FBC4FCE002597A5 /* AutoPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9817490FBC4FCE002597A5 /* AutoPointer.h */; };
+		5C98174D0FBC4FCE002597A5 /* InputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C98174A0FBC4FCE002597A5 /* InputStream.h */; };
+		5C98174E0FBC4FCE002597A5 /* irhoclassfactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C98174B0FBC4FCE002597A5 /* irhoclassfactory.h */; };
+		5CA2DE9011B01EF000B868D5 /* ThreadQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CA2DE8E11B01EF000B868D5 /* ThreadQueue.cpp */; };
+		5CA2DE9111B01EF000B868D5 /* ThreadQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA2DE8F11B01EF000B868D5 /* ThreadQueue.h */; };
+		5CB821AE1312487100778441 /* INetRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CB821AD1312487000778441 /* INetRequest.cpp */; };
+		5CBD462A1087399700107D0D /* URI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CBD46271087399700107D0D /* URI.cpp */; };
+		5CBD462B1087399700107D0D /* URI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CBD46281087399700107D0D /* URI.h */; };
+		5CCD7EBC116CE2D5005E6CA3 /* AppMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD7EBA116CE2D5005E6CA3 /* AppMenu.cpp */; };
+		5CCD7EBD116CE2D5005E6CA3 /* AppMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CCD7EBB116CE2D5005E6CA3 /* AppMenu.h */; };
+		5CE03CCC12DB7E990058B474 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 5CE03CCA12DB7E990058B474 /* sqlite3.c */; };
+		5CE03CCD12DB7E990058B474 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE03CCB12DB7E990058B474 /* sqlite3.h */; };
+		5CEBCFEF11E6FB8700145F4E /* rhoparams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CEBCFEE11E6FB8700145F4E /* rhoparams.cpp */; };
+		5CECDBB3113FE3620084A75B /* System.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CECDBB2113FE3620084A75B /* System.cpp */; };
+		656E39321497A64300288105 /* BundleManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 656E39311497A64300288105 /* BundleManager.cpp */; };
+		A22F9EFB14605D09006D8F1A /* PhonebookParams.h in Headers */ = {isa = PBXBuildFile; fileRef = A22F9EFA14605D09006D8F1A /* PhonebookParams.h */; };
+		A22F9EFF14605D82006D8F1A /* PhonebookParams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A22F9EFE14605D82006D8F1A /* PhonebookParams.cpp */; };
+		A2D0557D15A7500A002376EE /* IRhoPushClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D0557A15A7500A002376EE /* IRhoPushClient.h */; };
+		A2D0557E15A7500A002376EE /* RhoPushManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D0557B15A7500A002376EE /* RhoPushManager.cpp */; };
+		A2D0557F15A7500A002376EE /* RhoPushManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D0557C15A7500A002376EE /* RhoPushManager.h */; };
+		BD2C950810AE0D4B008D4692 /* PosixThreadImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD2C950610AE0D4B008D4692 /* PosixThreadImpl.cpp */; };
+		BD2C950910AE0D4B008D4692 /* PosixThreadImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2C950710AE0D4B008D4692 /* PosixThreadImpl.h */; };
+		BD2CEFCE10ADF10D002356D9 /* CURLNetRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD2CEFCB10ADF10D002356D9 /* CURLNetRequest.cpp */; };
+		BD2CEFCF10ADF10D002356D9 /* CURLNetRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2CEFCC10ADF10D002356D9 /* CURLNetRequest.h */; };
+		BD2CEFD010ADF10D002356D9 /* INetRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2CEFCD10ADF10D002356D9 /* INetRequest.h */; };
+		BD4FC54B10BFE4D100D280D0 /* HttpServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4FC54910BFE4D100D280D0 /* HttpServer.cpp */; };
+		BD4FC54C10BFE4D100D280D0 /* HttpServer.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4FC54A10BFE4D100D280D0 /* HttpServer.h */; };
+		BD8DF8881147C8090041A968 /* SplashScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD8DF8861147C8090041A968 /* SplashScreen.cpp */; };
+		BD8DF8891147C8090041A968 /* SplashScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8DF8871147C8090041A968 /* SplashScreen.h */; };
+		BDD11ECE113664E700349BE3 /* rhoparams.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD11ECC113664E700349BE3 /* rhoparams.h */; };
+		BDFCB13D112EE2B500AE3724 /* ssl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDFCB13B112EE2B500AE3724 /* ssl.cpp */; };
+		BDFCB13E112EE2B500AE3724 /* ssl.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFCB13C112EE2B500AE3724 /* ssl.h */; };
+		C08098B718059C88008FE912 /* JSONResultConvertor.h in Headers */ = {isa = PBXBuildFile; fileRef = C08098B518059C88008FE912 /* JSONResultConvertor.h */; };
+		C08098B818059C88008FE912 /* RubyResultConvertor.h in Headers */ = {isa = PBXBuildFile; fileRef = C08098B618059C88008FE912 /* RubyResultConvertor.h */; };
+		C084B09117394D4D00C1DCC0 /* StringifyHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C084B08F17394D4800C1DCC0 /* StringifyHelper.cpp */; };
+		C084B09217394D4D00C1DCC0 /* StringifyHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C084B09017394D4A00C1DCC0 /* StringifyHelper.h */; };
+		C51463711A9258F500607F50 /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = C514636F1A9258F500607F50 /* http_parser.c */; };
+		C51463721A9258F500607F50 /* http_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = C51463701A9258F500607F50 /* http_parser.h */; };
+		C51A570D19D1E2020064CE87 /* gunzip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A570C19D1E2020064CE87 /* gunzip.cpp */; };
+		C51A570F19D1EA200064CE87 /* gzlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A570E19D1EA200064CE87 /* gzlib.cpp */; };
+		C51A571119D1F0C10064CE87 /* gzread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A571019D1F0C10064CE87 /* gzread.cpp */; };
+		C51A571319D1F32A0064CE87 /* gzclose.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A571219D1F32A0064CE87 /* gzclose.cpp */; };
+		C51A571519D1F38F0064CE87 /* gzwrite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A571419D1F38F0064CE87 /* gzwrite.cpp */; };
+		C51A571719D1F5570064CE87 /* deflate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A571619D1F5570064CE87 /* deflate.cpp */; };
+		C51A571919D1F9770064CE87 /* inflate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A571819D1F9770064CE87 /* inflate.cpp */; };
+		C51A571B19D1FC480064CE87 /* trees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A571A19D1FC480064CE87 /* trees.cpp */; };
+		C51A571D19D1FE240064CE87 /* inffast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A571C19D1FE240064CE87 /* inffast.cpp */; };
+		C51A571F19D1FE900064CE87 /* infback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A571E19D1FE900064CE87 /* infback.cpp */; };
+		C51A572119D1FF380064CE87 /* inftrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A572019D1FF380064CE87 /* inftrees.cpp */; };
+		C51A572319D1FFBA0064CE87 /* crc32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A572219D1FFBA0064CE87 /* crc32.cpp */; };
+		C51A572519D200F20064CE87 /* adler32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A572419D200F20064CE87 /* adler32.cpp */; };
+		C51A572719D202B90064CE87 /* zutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A572619D202B90064CE87 /* zutil.cpp */; };
+		C56918CE168B9AB800F6013A /* RhodesApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C56918CD168B9AB800F6013A /* RhodesApp.cpp */; };
+		C5D47762156A4ED000943A2D /* zip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5D47760156A4ED000943A2D /* zip.cpp */; };
+		C5D47763156A4ED000943A2D /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D47761156A4ED000943A2D /* zip.h */; };
+		FA0E908D16B7FE000094CCDE /* CJSConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA0E908C16B7FE000094CCDE /* CJSConverter.mm */; };
+		FA1D452618D9E2BC0010CCF9 /* app_build_capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1D452518D9E2BC0010CCF9 /* app_build_capabilities.h */; };
+		FA5F58E012ADDA6D00C7613A /* app_build_configs.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5F58DE12ADDA6D00C7613A /* app_build_configs.h */; };
+		FA6B222617026477009D1398 /* MethodResultConvertor.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6B222517026477009D1398 /* MethodResultConvertor.h */; };
+		FAA714A91DDE5B6F00E5E7AD /* RhoNativeViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA714A81DDE5B6F00E5E7AD /* RhoNativeViewManager.h */; };
+		FAC6EE5B143B1FC800B8E352 /* BaseMapEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAC6EE4F143B1FC800B8E352 /* BaseMapEngine.cpp */; };
+		FAC6EE5C143B1FC800B8E352 /* BaseMapEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC6EE50143B1FC800B8E352 /* BaseMapEngine.h */; };
+		FAC6EE5D143B1FC800B8E352 /* ESRIMapEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAC6EE51143B1FC800B8E352 /* ESRIMapEngine.cpp */; };
+		FAC6EE5E143B1FC800B8E352 /* ESRIMapEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC6EE52143B1FC800B8E352 /* ESRIMapEngine.h */; };
+		FAC6EE5F143B1FC800B8E352 /* GeocodingMapEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAC6EE53143B1FC800B8E352 /* GeocodingMapEngine.cpp */; };
+		FAC6EE60143B1FC800B8E352 /* GeocodingMapEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC6EE54143B1FC800B8E352 /* GeocodingMapEngine.h */; };
+		FAC6EE61143B1FC800B8E352 /* GoogleMapEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAC6EE55143B1FC800B8E352 /* GoogleMapEngine.cpp */; };
+		FAC6EE62143B1FC800B8E352 /* GoogleMapEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC6EE56143B1FC800B8E352 /* GoogleMapEngine.h */; };
+		FAC6EE63143B1FC800B8E352 /* MapEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAC6EE57143B1FC800B8E352 /* MapEngine.cpp */; };
+		FAC6EE64143B1FC800B8E352 /* MapEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC6EE58143B1FC800B8E352 /* MapEngine.h */; };
+		FAC6EE65143B1FC800B8E352 /* OSMMapEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAC6EE59143B1FC800B8E352 /* OSMMapEngine.cpp */; };
+		FAC6EE66143B1FC800B8E352 /* OSMMapEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC6EE5A143B1FC800B8E352 /* OSMMapEngine.h */; };
+		FAC6EE69143B20B600B8E352 /* RhoMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAC6EE67143B20B600B8E352 /* RhoMath.cpp */; };
+		FAC6EE6A143B20B600B8E352 /* RhoMath.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC6EE68143B20B600B8E352 /* RhoMath.h */; };
+		FAD0471E1757A81700000F15 /* CJSEntryPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD0471C1757A81700000F15 /* CJSEntryPoint.h */; };
+		FAD0471F1757A81700000F15 /* CJSEntryPoint.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAD0471D1757A81700000F15 /* CJSEntryPoint.mm */; };
+		FAEF1DCA16AED9D200E22B05 /* BaseClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEF1DB916AED9D200E22B05 /* BaseClasses.h */; };
+		FAEF1DCB16AED9D200E22B05 /* GeneratorQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEF1DBA16AED9D200E22B05 /* GeneratorQueue.h */; };
+		FAEF1DCC16AED9D200E22B05 /* CJSConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEF1DBC16AED9D200E22B05 /* CJSConverter.h */; };
+		FAEF1DCE16AED9D200E22B05 /* CMethodResult.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEF1DBE16AED9D200E22B05 /* CMethodResult.h */; };
+		FAEF1DCF16AED9D200E22B05 /* CMethodResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEF1DBF16AED9D200E22B05 /* CMethodResult.m */; };
+		FAEF1DD016AED9D200E22B05 /* CRubyConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEF1DC016AED9D200E22B05 /* CRubyConverter.h */; };
+		FAEF1DD116AED9D200E22B05 /* CRubyConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEF1DC116AED9D200E22B05 /* CRubyConverter.m */; };
+		FAEF1DD216AED9D200E22B05 /* IMethodResult.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEF1DC216AED9D200E22B05 /* IMethodResult.h */; };
+		FAEF1DD316AED9D200E22B05 /* RubyCallbackHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEF1DC416AED9D200E22B05 /* RubyCallbackHelper.h */; };
+		FAEF1DD416AED9D200E22B05 /* RubyCallbackHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAEF1DC516AED9D200E22B05 /* RubyCallbackHelper.mm */; };
+		FAEF1DD516AED9D200E22B05 /* js_helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAEF1DC616AED9D200E22B05 /* js_helpers.cpp */; };
+		FAEF1DD616AED9D200E22B05 /* js_helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEF1DC716AED9D200E22B05 /* js_helpers.h */; };
+		FAEF1DD716AED9D200E22B05 /* MethodResult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAEF1DC816AED9D200E22B05 /* MethodResult.cpp */; };
+		FAEF1DD816AED9D200E22B05 /* MethodResult.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEF1DC916AED9D200E22B05 /* MethodResult.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C0F94DE132979140093FA1B /* RhoTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhoTime.cpp; path = ../../shared/common/RhoTime.cpp; sourceTree = SOURCE_ROOT; };
+		5C2CE15B122ACA9E005EDBC4 /* RhoAppAdapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhoAppAdapter.cpp; path = ../../shared/rubyext/RhoAppAdapter.cpp; sourceTree = SOURCE_ROOT; };
+		5C2CE254122AEC87005EDBC4 /* RhoAppAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoAppAdapter.h; path = ../../shared/common/RhoAppAdapter.h; sourceTree = SOURCE_ROOT; };
+		5C5335500FC2977600F268F0 /* IRhoThreadImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRhoThreadImpl.h; path = ../../shared/common/IRhoThreadImpl.h; sourceTree = SOURCE_ROOT; };
+		5C5335510FC2977600F268F0 /* RhoThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhoThread.cpp; path = ../../shared/common/RhoThread.cpp; sourceTree = SOURCE_ROOT; };
+		5C5335520FC2977600F268F0 /* RhoThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoThread.h; path = ../../shared/common/RhoThread.h; sourceTree = SOURCE_ROOT; };
+		5C59BF4B115B4BC300E96ADE /* unzip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = unzip.cpp; path = ../../shared/unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		5C59BF4C115B4BC300E96ADE /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = ../../shared/unzip/unzip.h; sourceTree = SOURCE_ROOT; };
+		5C663BE711F3712C005F60AF /* RhodesAppBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhodesAppBase.cpp; path = ../../shared/common/RhodesAppBase.cpp; sourceTree = SOURCE_ROOT; };
+		5C663BE811F3712C005F60AF /* RhodesAppBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhodesAppBase.h; path = ../../shared/common/RhodesAppBase.h; sourceTree = SOURCE_ROOT; };
+		5C6855E710A02EAA008DA047 /* RhodesApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhodesApp.h; path = ../../shared/common/RhodesApp.h; sourceTree = SOURCE_ROOT; };
+		5C6B448A0F946589003CB43A /* RhoConf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhoConf.cpp; path = ../../shared/common/RhoConf.cpp; sourceTree = SOURCE_ROOT; };
+		5C6B448B0F946589003CB43A /* RhoConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoConf.h; path = ../../shared/common/RhoConf.h; sourceTree = SOURCE_ROOT; };
+		5C6B452A0F9468E2003CB43A /* RhoProfiler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhoProfiler.cpp; path = ../../shared/statistic/RhoProfiler.cpp; sourceTree = SOURCE_ROOT; };
+		5C6B452B0F9468E2003CB43A /* RhoProfiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoProfiler.h; path = ../../shared/statistic/RhoProfiler.h; sourceTree = SOURCE_ROOT; };
+		5C7162640F8B7E170096B6AA /* RhoDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoDefs.h; path = ../../shared/common/RhoDefs.h; sourceTree = SOURCE_ROOT; };
+		5C7162650F8B7E170096B6AA /* RhoFatalError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoFatalError.h; path = ../../shared/common/RhoFatalError.h; sourceTree = SOURCE_ROOT; };
+		5C7162660F8B7E170096B6AA /* RhoFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhoFile.cpp; path = ../../shared/common/RhoFile.cpp; sourceTree = SOURCE_ROOT; };
+		5C7162670F8B7E170096B6AA /* RhoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoFile.h; path = ../../shared/common/RhoFile.h; sourceTree = SOURCE_ROOT; };
+		5C7162680F8B7E170096B6AA /* RhoFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoFilePath.h; path = ../../shared/common/RhoFilePath.h; sourceTree = SOURCE_ROOT; };
+		5C7162690F8B7E170096B6AA /* RhoMutexLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoMutexLock.h; path = ../../shared/common/RhoMutexLock.h; sourceTree = SOURCE_ROOT; };
+		5C71626A0F8B7E170096B6AA /* RhoPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoPort.h; path = ../../shared/common/RhoPort.h; sourceTree = SOURCE_ROOT; };
+		5C71626B0F8B7E170096B6AA /* RhoStd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoStd.h; path = ../../shared/common/RhoStd.h; sourceTree = SOURCE_ROOT; };
+		5C71626C0F8B7E170096B6AA /* RhoSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoSystem.h; path = ../../shared/common/RhoSystem.h; sourceTree = SOURCE_ROOT; };
+		5C71626D0F8B7E170096B6AA /* RhoTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoTime.h; path = ../../shared/common/RhoTime.h; sourceTree = SOURCE_ROOT; };
+		5C71626E0F8B7E170096B6AA /* StringConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringConverter.h; path = ../../shared/common/StringConverter.h; sourceTree = SOURCE_ROOT; };
+		5C71627A0F8B7E330096B6AA /* RhoLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhoLog.cpp; path = ../../shared/logging/RhoLog.cpp; sourceTree = SOURCE_ROOT; };
+		5C71627B0F8B7E330096B6AA /* RhoLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoLog.h; path = ../../shared/logging/RhoLog.h; sourceTree = SOURCE_ROOT; };
+		5C71627C0F8B7E330096B6AA /* RhoLogCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoLogCat.h; path = ../../shared/logging/RhoLogCat.h; sourceTree = SOURCE_ROOT; };
+		5C71627D0F8B7E330096B6AA /* RhoLogConf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhoLogConf.cpp; path = ../../shared/logging/RhoLogConf.cpp; sourceTree = SOURCE_ROOT; };
+		5C71627E0F8B7E330096B6AA /* RhoLogConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoLogConf.h; path = ../../shared/logging/RhoLogConf.h; sourceTree = SOURCE_ROOT; };
+		5C71627F0F8B7E330096B6AA /* RhoLogSink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhoLogSink.cpp; path = ../../shared/logging/RhoLogSink.cpp; sourceTree = SOURCE_ROOT; };
+		5C7162800F8B7E330096B6AA /* RhoLogSink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoLogSink.h; path = ../../shared/logging/RhoLogSink.h; sourceTree = SOURCE_ROOT; };
+		5C7162810F8B7E330096B6AA /* RhoPlainLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhoPlainLog.cpp; path = ../../shared/logging/RhoPlainLog.cpp; sourceTree = SOURCE_ROOT; };
+		5C7405901064AF1600163569 /* Tokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tokenizer.cpp; path = ../../shared/common/Tokenizer.cpp; sourceTree = SOURCE_ROOT; };
+		5C7405911064AF1600163569 /* Tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tokenizer.h; path = ../../shared/common/Tokenizer.h; sourceTree = SOURCE_ROOT; };
+		5C798932113BD148005F8736 /* GeoLocation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoLocation.cpp; path = ../../shared/rubyext/GeoLocation.cpp; sourceTree = SOURCE_ROOT; };
+		5C798933113BD148005F8736 /* GeoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoLocation.h; path = ../../shared/rubyext/GeoLocation.h; sourceTree = SOURCE_ROOT; };
+		5C9817490FBC4FCE002597A5 /* AutoPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoPointer.h; path = ../../shared/common/AutoPointer.h; sourceTree = SOURCE_ROOT; };
+		5C98174A0FBC4FCE002597A5 /* InputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputStream.h; path = ../../shared/common/InputStream.h; sourceTree = SOURCE_ROOT; };
+		5C98174B0FBC4FCE002597A5 /* irhoclassfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = irhoclassfactory.h; path = ../../shared/common/irhoclassfactory.h; sourceTree = SOURCE_ROOT; };
+		5CA2DE8E11B01EF000B868D5 /* ThreadQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ThreadQueue.cpp; path = ../../shared/common/ThreadQueue.cpp; sourceTree = SOURCE_ROOT; };
+		5CA2DE8F11B01EF000B868D5 /* ThreadQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreadQueue.h; path = ../../shared/common/ThreadQueue.h; sourceTree = SOURCE_ROOT; };
+		5CB821AD1312487000778441 /* INetRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = INetRequest.cpp; path = ../../shared/net/INetRequest.cpp; sourceTree = SOURCE_ROOT; };
+		5CBD46271087399700107D0D /* URI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = URI.cpp; path = ../../shared/net/URI.cpp; sourceTree = SOURCE_ROOT; };
+		5CBD46281087399700107D0D /* URI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URI.h; path = ../../shared/net/URI.h; sourceTree = SOURCE_ROOT; };
+		5CCD7EBA116CE2D5005E6CA3 /* AppMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppMenu.cpp; path = ../../shared/common/AppMenu.cpp; sourceTree = SOURCE_ROOT; };
+		5CCD7EBB116CE2D5005E6CA3 /* AppMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppMenu.h; path = ../../shared/common/AppMenu.h; sourceTree = SOURCE_ROOT; };
+		5CE03CCA12DB7E990058B474 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sqlite3.c; path = ../../shared/sqlite/sqlite3.c; sourceTree = SOURCE_ROOT; };
+		5CE03CCB12DB7E990058B474 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = ../../shared/sqlite/sqlite3.h; sourceTree = SOURCE_ROOT; };
+		5CEBCFEE11E6FB8700145F4E /* rhoparams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rhoparams.cpp; path = ../../shared/common/rhoparams.cpp; sourceTree = SOURCE_ROOT; };
+		5CECDBB2113FE3620084A75B /* System.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = System.cpp; path = ../../shared/rubyext/System.cpp; sourceTree = SOURCE_ROOT; };
+		656E39311497A64300288105 /* BundleManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BundleManager.cpp; path = ../../shared/common/BundleManager.cpp; sourceTree = "<group>"; };
+		A22F9EFA14605D09006D8F1A /* PhonebookParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhonebookParams.h; path = ../../shared/common/phonebook/PhonebookParams.h; sourceTree = "<group>"; };
+		A22F9EFE14605D82006D8F1A /* PhonebookParams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PhonebookParams.cpp; path = ../../shared/common/phonebook/PhonebookParams.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		A2D0557A15A7500A002376EE /* IRhoPushClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRhoPushClient.h; path = ../../shared/common/push/IRhoPushClient.h; sourceTree = "<group>"; };
+		A2D0557B15A7500A002376EE /* RhoPushManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhoPushManager.cpp; path = ../../shared/common/push/RhoPushManager.cpp; sourceTree = "<group>"; };
+		A2D0557C15A7500A002376EE /* RhoPushManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoPushManager.h; path = ../../shared/common/push/RhoPushManager.h; sourceTree = "<group>"; };
+		BD2C950610AE0D4B008D4692 /* PosixThreadImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PosixThreadImpl.cpp; path = ../../shared/common/PosixThreadImpl.cpp; sourceTree = SOURCE_ROOT; };
+		BD2C950710AE0D4B008D4692 /* PosixThreadImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PosixThreadImpl.h; path = ../../shared/common/PosixThreadImpl.h; sourceTree = SOURCE_ROOT; };
+		BD2CEFCB10ADF10D002356D9 /* CURLNetRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CURLNetRequest.cpp; path = ../../shared/net/CURLNetRequest.cpp; sourceTree = SOURCE_ROOT; };
+		BD2CEFCC10ADF10D002356D9 /* CURLNetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CURLNetRequest.h; path = ../../shared/net/CURLNetRequest.h; sourceTree = SOURCE_ROOT; };
+		BD2CEFCD10ADF10D002356D9 /* INetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INetRequest.h; path = ../../shared/net/INetRequest.h; sourceTree = SOURCE_ROOT; };
+		BD4FC54910BFE4D100D280D0 /* HttpServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HttpServer.cpp; path = ../../shared/net/HttpServer.cpp; sourceTree = SOURCE_ROOT; };
+		BD4FC54A10BFE4D100D280D0 /* HttpServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpServer.h; path = ../../shared/net/HttpServer.h; sourceTree = SOURCE_ROOT; };
+		BD8DF8861147C8090041A968 /* SplashScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SplashScreen.cpp; path = ../../shared/common/SplashScreen.cpp; sourceTree = SOURCE_ROOT; };
+		BD8DF8871147C8090041A968 /* SplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplashScreen.h; path = ../../shared/common/SplashScreen.h; sourceTree = SOURCE_ROOT; };
+		BDD11ECC113664E700349BE3 /* rhoparams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rhoparams.h; path = ../../shared/common/rhoparams.h; sourceTree = SOURCE_ROOT; };
+		BDFCB13B112EE2B500AE3724 /* ssl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ssl.cpp; path = ../../shared/net/ssl.cpp; sourceTree = SOURCE_ROOT; };
+		BDFCB13C112EE2B500AE3724 /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ssl.h; path = ../../shared/net/ssl.h; sourceTree = SOURCE_ROOT; };
+		C08098B518059C88008FE912 /* JSONResultConvertor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONResultConvertor.h; path = ../../shared/api_generator/JSONResultConvertor.h; sourceTree = "<group>"; };
+		C08098B618059C88008FE912 /* RubyResultConvertor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RubyResultConvertor.h; path = ../../shared/api_generator/RubyResultConvertor.h; sourceTree = "<group>"; };
+		C084B08F17394D4800C1DCC0 /* StringifyHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StringifyHelper.cpp; path = ../../shared/api_generator/StringifyHelper.cpp; sourceTree = "<group>"; };
+		C084B09017394D4A00C1DCC0 /* StringifyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringifyHelper.h; path = ../../shared/api_generator/StringifyHelper.h; sourceTree = "<group>"; };
+		C514636F1A9258F500607F50 /* http_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = http_parser.c; path = ../../shared/net/http_parser.c; sourceTree = "<group>"; };
+		C51463701A9258F500607F50 /* http_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = http_parser.h; path = ../../shared/net/http_parser.h; sourceTree = "<group>"; };
+		C51A570B19D1E13B0064CE87 /* gunzip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gunzip.h; path = ../../shared/unzip/gunzip.h; sourceTree = "<group>"; };
+		C51A570C19D1E2020064CE87 /* gunzip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gunzip.cpp; path = ../../shared/unzip/gunzip.cpp; sourceTree = "<group>"; };
+		C51A570E19D1EA200064CE87 /* gzlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gzlib.cpp; path = ../../shared/unzip/gzlib.cpp; sourceTree = "<group>"; };
+		C51A571019D1F0C10064CE87 /* gzread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gzread.cpp; path = ../../shared/unzip/gzread.cpp; sourceTree = "<group>"; };
+		C51A571219D1F32A0064CE87 /* gzclose.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gzclose.cpp; path = ../../shared/unzip/gzclose.cpp; sourceTree = "<group>"; };
+		C51A571419D1F38F0064CE87 /* gzwrite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gzwrite.cpp; path = ../../shared/unzip/gzwrite.cpp; sourceTree = "<group>"; };
+		C51A571619D1F5570064CE87 /* deflate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = deflate.cpp; path = ../../shared/unzip/deflate.cpp; sourceTree = "<group>"; };
+		C51A571819D1F9770064CE87 /* inflate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = inflate.cpp; path = ../../shared/unzip/inflate.cpp; sourceTree = "<group>"; };
+		C51A571A19D1FC480064CE87 /* trees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = trees.cpp; path = ../../shared/unzip/trees.cpp; sourceTree = "<group>"; };
+		C51A571C19D1FE240064CE87 /* inffast.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = inffast.cpp; path = ../../shared/unzip/inffast.cpp; sourceTree = "<group>"; };
+		C51A571E19D1FE900064CE87 /* infback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = infback.cpp; path = ../../shared/unzip/infback.cpp; sourceTree = "<group>"; };
+		C51A572019D1FF380064CE87 /* inftrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = inftrees.cpp; path = ../../shared/unzip/inftrees.cpp; sourceTree = "<group>"; };
+		C51A572219D1FFBA0064CE87 /* crc32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = crc32.cpp; path = ../../shared/unzip/crc32.cpp; sourceTree = "<group>"; };
+		C51A572419D200F20064CE87 /* adler32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adler32.cpp; path = ../../shared/unzip/adler32.cpp; sourceTree = "<group>"; };
+		C51A572619D202B90064CE87 /* zutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = zutil.cpp; path = ../../shared/unzip/zutil.cpp; sourceTree = "<group>"; };
+		C56918CD168B9AB800F6013A /* RhodesApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhodesApp.cpp; path = ../../shared/common/RhodesApp.cpp; sourceTree = "<group>"; };
+		C5D2784315A1F33A00A7EFC7 /* ZipFiles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ZipFiles.cpp; path = ../../shared/rubyext/ZipFiles.cpp; sourceTree = "<group>"; };
+		C5D47760156A4ED000943A2D /* zip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = zip.cpp; path = ../../shared/unzip/zip.cpp; sourceTree = "<group>"; };
+		C5D47761156A4ED000943A2D /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zip.h; path = ../../shared/unzip/zip.h; sourceTree = "<group>"; };
+		C5DEC5691575069800AE4AC1 /* RhoSettingsDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RhoSettingsDefs.h; path = ../../shared/common/RhoSettingsDefs.h; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* librholib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librholib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0E908C16B7FE000094CCDE /* CJSConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CJSConverter.mm; sourceTree = "<group>"; };
+		FA1D452518D9E2BC0010CCF9 /* app_build_capabilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = app_build_capabilities.h; path = ../../shared/common/app_build_capabilities.h; sourceTree = "<group>"; };
+		FA5F58DD12ADDA6D00C7613A /* app_build_configs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = app_build_configs.c; path = ../../shared/common/app_build_configs.c; sourceTree = SOURCE_ROOT; };
+		FA5F58DE12ADDA6D00C7613A /* app_build_configs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = app_build_configs.h; path = ../../shared/common/app_build_configs.h; sourceTree = SOURCE_ROOT; };
+		FA6B222517026477009D1398 /* MethodResultConvertor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MethodResultConvertor.h; path = ../../shared/api_generator/MethodResultConvertor.h; sourceTree = "<group>"; };
+		FAA714A81DDE5B6F00E5E7AD /* RhoNativeViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoNativeViewManager.h; path = ../../shared/common/RhoNativeViewManager.h; sourceTree = "<group>"; };
+		FAC6EE4F143B1FC800B8E352 /* BaseMapEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseMapEngine.cpp; path = ../../shared/common/map/BaseMapEngine.cpp; sourceTree = "<group>"; };
+		FAC6EE50143B1FC800B8E352 /* BaseMapEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseMapEngine.h; path = ../../shared/common/map/BaseMapEngine.h; sourceTree = "<group>"; };
+		FAC6EE51143B1FC800B8E352 /* ESRIMapEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ESRIMapEngine.cpp; path = ../../shared/common/map/ESRIMapEngine.cpp; sourceTree = "<group>"; };
+		FAC6EE52143B1FC800B8E352 /* ESRIMapEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESRIMapEngine.h; path = ../../shared/common/map/ESRIMapEngine.h; sourceTree = "<group>"; };
+		FAC6EE53143B1FC800B8E352 /* GeocodingMapEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeocodingMapEngine.cpp; path = ../../shared/common/map/GeocodingMapEngine.cpp; sourceTree = "<group>"; };
+		FAC6EE54143B1FC800B8E352 /* GeocodingMapEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeocodingMapEngine.h; path = ../../shared/common/map/GeocodingMapEngine.h; sourceTree = "<group>"; };
+		FAC6EE55143B1FC800B8E352 /* GoogleMapEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GoogleMapEngine.cpp; path = ../../shared/common/map/GoogleMapEngine.cpp; sourceTree = "<group>"; };
+		FAC6EE56143B1FC800B8E352 /* GoogleMapEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoogleMapEngine.h; path = ../../shared/common/map/GoogleMapEngine.h; sourceTree = "<group>"; };
+		FAC6EE57143B1FC800B8E352 /* MapEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MapEngine.cpp; path = ../../shared/common/map/MapEngine.cpp; sourceTree = "<group>"; };
+		FAC6EE58143B1FC800B8E352 /* MapEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapEngine.h; path = ../../shared/common/map/MapEngine.h; sourceTree = "<group>"; };
+		FAC6EE59143B1FC800B8E352 /* OSMMapEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OSMMapEngine.cpp; path = ../../shared/common/map/OSMMapEngine.cpp; sourceTree = "<group>"; };
+		FAC6EE5A143B1FC800B8E352 /* OSMMapEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSMMapEngine.h; path = ../../shared/common/map/OSMMapEngine.h; sourceTree = "<group>"; };
+		FAC6EE67143B20B600B8E352 /* RhoMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RhoMath.cpp; path = ../../shared/common/RhoMath.cpp; sourceTree = "<group>"; };
+		FAC6EE68143B20B600B8E352 /* RhoMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RhoMath.h; path = ../../shared/common/RhoMath.h; sourceTree = "<group>"; };
+		FAD0471C1757A81700000F15 /* CJSEntryPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSEntryPoint.h; sourceTree = "<group>"; };
+		FAD0471D1757A81700000F15 /* CJSEntryPoint.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CJSEntryPoint.mm; sourceTree = "<group>"; };
+		FAEF1DB916AED9D200E22B05 /* BaseClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseClasses.h; path = ../../shared/api_generator/BaseClasses.h; sourceTree = "<group>"; };
+		FAEF1DBA16AED9D200E22B05 /* GeneratorQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeneratorQueue.h; path = ../../shared/api_generator/GeneratorQueue.h; sourceTree = "<group>"; };
+		FAEF1DBC16AED9D200E22B05 /* CJSConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSConverter.h; sourceTree = "<group>"; };
+		FAEF1DBE16AED9D200E22B05 /* CMethodResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMethodResult.h; sourceTree = "<group>"; };
+		FAEF1DBF16AED9D200E22B05 /* CMethodResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMethodResult.m; sourceTree = "<group>"; };
+		FAEF1DC016AED9D200E22B05 /* CRubyConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRubyConverter.h; sourceTree = "<group>"; };
+		FAEF1DC116AED9D200E22B05 /* CRubyConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRubyConverter.m; sourceTree = "<group>"; };
+		FAEF1DC216AED9D200E22B05 /* IMethodResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMethodResult.h; sourceTree = "<group>"; };
+		FAEF1DC316AED9D200E22B05 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		FAEF1DC416AED9D200E22B05 /* RubyCallbackHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubyCallbackHelper.h; sourceTree = "<group>"; };
+		FAEF1DC516AED9D200E22B05 /* RubyCallbackHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RubyCallbackHelper.mm; sourceTree = "<group>"; };
+		FAEF1DC616AED9D200E22B05 /* js_helpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = js_helpers.cpp; path = ../../shared/api_generator/js_helpers.cpp; sourceTree = "<group>"; };
+		FAEF1DC716AED9D200E22B05 /* js_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = js_helpers.h; path = ../../shared/api_generator/js_helpers.h; sourceTree = "<group>"; };
+		FAEF1DC816AED9D200E22B05 /* MethodResult.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MethodResult.cpp; path = ../../shared/api_generator/MethodResult.cpp; sourceTree = "<group>"; };
+		FAEF1DC916AED9D200E22B05 /* MethodResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MethodResult.h; path = ../../shared/api_generator/MethodResult.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* RhoLib */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = RhoLib;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FAEF1DB716AED9B700E22B05 /* api_generator */,
+				5C7162600F8B7DEE0096B6AA /* common */,
+				5C7162630F8B7DF40096B6AA /* logging */,
+				5CBD46251087397B00107D0D /* net */,
+				5C798931113BD10C005F8736 /* rubyext */,
+				5CE03CC912DB7E670058B474 /* sqlite */,
+				5C6B45280F9468C5003CB43A /* statistic */,
+				5C59BF4A115B4BA300E96ADE /* unzip */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* librholib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C59BF4A115B4BA300E96ADE /* unzip */ = {
+			isa = PBXGroup;
+			children = (
+				C51A572619D202B90064CE87 /* zutil.cpp */,
+				C51A572419D200F20064CE87 /* adler32.cpp */,
+				C51A572219D1FFBA0064CE87 /* crc32.cpp */,
+				C51A572019D1FF380064CE87 /* inftrees.cpp */,
+				C51A571E19D1FE900064CE87 /* infback.cpp */,
+				C51A571C19D1FE240064CE87 /* inffast.cpp */,
+				C51A571A19D1FC480064CE87 /* trees.cpp */,
+				C51A571819D1F9770064CE87 /* inflate.cpp */,
+				C51A571619D1F5570064CE87 /* deflate.cpp */,
+				C51A571419D1F38F0064CE87 /* gzwrite.cpp */,
+				C51A571219D1F32A0064CE87 /* gzclose.cpp */,
+				C51A571019D1F0C10064CE87 /* gzread.cpp */,
+				C51A570E19D1EA200064CE87 /* gzlib.cpp */,
+				C51A570B19D1E13B0064CE87 /* gunzip.h */,
+				C5D47760156A4ED000943A2D /* zip.cpp */,
+				C5D47761156A4ED000943A2D /* zip.h */,
+				5C59BF4B115B4BC300E96ADE /* unzip.cpp */,
+				5C59BF4C115B4BC300E96ADE /* unzip.h */,
+				C51A570C19D1E2020064CE87 /* gunzip.cpp */,
+			);
+			name = unzip;
+			sourceTree = "<group>";
+		};
+		5C6B45280F9468C5003CB43A /* statistic */ = {
+			isa = PBXGroup;
+			children = (
+				5C6B452A0F9468E2003CB43A /* RhoProfiler.cpp */,
+				5C6B452B0F9468E2003CB43A /* RhoProfiler.h */,
+			);
+			name = statistic;
+			sourceTree = "<group>";
+		};
+		5C7162600F8B7DEE0096B6AA /* common */ = {
+			isa = PBXGroup;
+			children = (
+				FAA714A81DDE5B6F00E5E7AD /* RhoNativeViewManager.h */,
+				FA1D452518D9E2BC0010CCF9 /* app_build_capabilities.h */,
+				FAC6EE4C143B1F1E00B8E352 /* map */,
+				A22F9EFD14605D12006D8F1A /* phonebook */,
+				A2D0558115A75027002376EE /* push */,
+				FA5F58DD12ADDA6D00C7613A /* app_build_configs.c */,
+				FA5F58DE12ADDA6D00C7613A /* app_build_configs.h */,
+				5CCD7EBA116CE2D5005E6CA3 /* AppMenu.cpp */,
+				5CCD7EBB116CE2D5005E6CA3 /* AppMenu.h */,
+				5C9817490FBC4FCE002597A5 /* AutoPointer.h */,
+				656E39311497A64300288105 /* BundleManager.cpp */,
+				5C98174A0FBC4FCE002597A5 /* InputStream.h */,
+				5C98174B0FBC4FCE002597A5 /* irhoclassfactory.h */,
+				5C5335500FC2977600F268F0 /* IRhoThreadImpl.h */,
+				BD2C950610AE0D4B008D4692 /* PosixThreadImpl.cpp */,
+				BD2C950710AE0D4B008D4692 /* PosixThreadImpl.h */,
+				5C2CE254122AEC87005EDBC4 /* RhoAppAdapter.h */,
+				5C6B448A0F946589003CB43A /* RhoConf.cpp */,
+				5C6B448B0F946589003CB43A /* RhoConf.h */,
+				5C7162640F8B7E170096B6AA /* RhoDefs.h */,
+				C56918CD168B9AB800F6013A /* RhodesApp.cpp */,
+				5C6855E710A02EAA008DA047 /* RhodesApp.h */,
+				5C663BE711F3712C005F60AF /* RhodesAppBase.cpp */,
+				5C663BE811F3712C005F60AF /* RhodesAppBase.h */,
+				5C7162650F8B7E170096B6AA /* RhoFatalError.h */,
+				5C7162660F8B7E170096B6AA /* RhoFile.cpp */,
+				5C7162670F8B7E170096B6AA /* RhoFile.h */,
+				5C7162680F8B7E170096B6AA /* RhoFilePath.h */,
+				FAC6EE67143B20B600B8E352 /* RhoMath.cpp */,
+				FAC6EE68143B20B600B8E352 /* RhoMath.h */,
+				5C7162690F8B7E170096B6AA /* RhoMutexLock.h */,
+				5CEBCFEE11E6FB8700145F4E /* rhoparams.cpp */,
+				BDD11ECC113664E700349BE3 /* rhoparams.h */,
+				5C71626A0F8B7E170096B6AA /* RhoPort.h */,
+				C5DEC5691575069800AE4AC1 /* RhoSettingsDefs.h */,
+				5C71626B0F8B7E170096B6AA /* RhoStd.h */,
+				5C71626C0F8B7E170096B6AA /* RhoSystem.h */,
+				5C5335510FC2977600F268F0 /* RhoThread.cpp */,
+				5C5335520FC2977600F268F0 /* RhoThread.h */,
+				5C0F94DE132979140093FA1B /* RhoTime.cpp */,
+				5C71626D0F8B7E170096B6AA /* RhoTime.h */,
+				BD8DF8861147C8090041A968 /* SplashScreen.cpp */,
+				BD8DF8871147C8090041A968 /* SplashScreen.h */,
+				5C71626E0F8B7E170096B6AA /* StringConverter.h */,
+				5CA2DE8E11B01EF000B868D5 /* ThreadQueue.cpp */,
+				5CA2DE8F11B01EF000B868D5 /* ThreadQueue.h */,
+				5C7405901064AF1600163569 /* Tokenizer.cpp */,
+				5C7405911064AF1600163569 /* Tokenizer.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		5C7162630F8B7DF40096B6AA /* logging */ = {
+			isa = PBXGroup;
+			children = (
+				5C71627A0F8B7E330096B6AA /* RhoLog.cpp */,
+				5C71627B0F8B7E330096B6AA /* RhoLog.h */,
+				5C71627C0F8B7E330096B6AA /* RhoLogCat.h */,
+				5C71627D0F8B7E330096B6AA /* RhoLogConf.cpp */,
+				5C71627E0F8B7E330096B6AA /* RhoLogConf.h */,
+				5C71627F0F8B7E330096B6AA /* RhoLogSink.cpp */,
+				5C7162800F8B7E330096B6AA /* RhoLogSink.h */,
+				5C7162810F8B7E330096B6AA /* RhoPlainLog.cpp */,
+			);
+			name = logging;
+			sourceTree = "<group>";
+		};
+		5C798931113BD10C005F8736 /* rubyext */ = {
+			isa = PBXGroup;
+			children = (
+				C5D2784315A1F33A00A7EFC7 /* ZipFiles.cpp */,
+				5C2CE15B122ACA9E005EDBC4 /* RhoAppAdapter.cpp */,
+				5CECDBB2113FE3620084A75B /* System.cpp */,
+				5C798932113BD148005F8736 /* GeoLocation.cpp */,
+				5C798933113BD148005F8736 /* GeoLocation.h */,
+			);
+			name = rubyext;
+			sourceTree = "<group>";
+		};
+		5CBD46251087397B00107D0D /* net */ = {
+			isa = PBXGroup;
+			children = (
+				C514636F1A9258F500607F50 /* http_parser.c */,
+				C51463701A9258F500607F50 /* http_parser.h */,
+				5CB821AD1312487000778441 /* INetRequest.cpp */,
+				BDFCB13B112EE2B500AE3724 /* ssl.cpp */,
+				BDFCB13C112EE2B500AE3724 /* ssl.h */,
+				BD4FC54910BFE4D100D280D0 /* HttpServer.cpp */,
+				BD4FC54A10BFE4D100D280D0 /* HttpServer.h */,
+				BD2CEFCB10ADF10D002356D9 /* CURLNetRequest.cpp */,
+				BD2CEFCC10ADF10D002356D9 /* CURLNetRequest.h */,
+				BD2CEFCD10ADF10D002356D9 /* INetRequest.h */,
+				5CBD46271087399700107D0D /* URI.cpp */,
+				5CBD46281087399700107D0D /* URI.h */,
+			);
+			name = net;
+			sourceTree = "<group>";
+		};
+		5CE03CC912DB7E670058B474 /* sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				5CE03CCA12DB7E990058B474 /* sqlite3.c */,
+				5CE03CCB12DB7E990058B474 /* sqlite3.h */,
+			);
+			name = sqlite;
+			sourceTree = "<group>";
+		};
+		A22F9EFD14605D12006D8F1A /* phonebook */ = {
+			isa = PBXGroup;
+			children = (
+				A22F9EFA14605D09006D8F1A /* PhonebookParams.h */,
+				A22F9EFE14605D82006D8F1A /* PhonebookParams.cpp */,
+			);
+			name = phonebook;
+			sourceTree = "<group>";
+		};
+		A2D0558115A75027002376EE /* push */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0557A15A7500A002376EE /* IRhoPushClient.h */,
+				A2D0557B15A7500A002376EE /* RhoPushManager.cpp */,
+				A2D0557C15A7500A002376EE /* RhoPushManager.h */,
+			);
+			name = push;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		FAC6EE4C143B1F1E00B8E352 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				FAC6EE4F143B1FC800B8E352 /* BaseMapEngine.cpp */,
+				FAC6EE50143B1FC800B8E352 /* BaseMapEngine.h */,
+				FAC6EE51143B1FC800B8E352 /* ESRIMapEngine.cpp */,
+				FAC6EE52143B1FC800B8E352 /* ESRIMapEngine.h */,
+				FAC6EE53143B1FC800B8E352 /* GeocodingMapEngine.cpp */,
+				FAC6EE54143B1FC800B8E352 /* GeocodingMapEngine.h */,
+				FAC6EE55143B1FC800B8E352 /* GoogleMapEngine.cpp */,
+				FAC6EE56143B1FC800B8E352 /* GoogleMapEngine.h */,
+				FAC6EE57143B1FC800B8E352 /* MapEngine.cpp */,
+				FAC6EE58143B1FC800B8E352 /* MapEngine.h */,
+				FAC6EE59143B1FC800B8E352 /* OSMMapEngine.cpp */,
+				FAC6EE5A143B1FC800B8E352 /* OSMMapEngine.h */,
+			);
+			name = map;
+			sourceTree = "<group>";
+		};
+		FAEF1DB716AED9B700E22B05 /* api_generator */ = {
+			isa = PBXGroup;
+			children = (
+				C08098B518059C88008FE912 /* JSONResultConvertor.h */,
+				C08098B618059C88008FE912 /* RubyResultConvertor.h */,
+				FA6B222517026477009D1398 /* MethodResultConvertor.h */,
+				FAEF1DB916AED9D200E22B05 /* BaseClasses.h */,
+				FAEF1DBA16AED9D200E22B05 /* GeneratorQueue.h */,
+				FAEF1DBB16AED9D200E22B05 /* iphone */,
+				FAEF1DC616AED9D200E22B05 /* js_helpers.cpp */,
+				FAEF1DC716AED9D200E22B05 /* js_helpers.h */,
+				FAEF1DC816AED9D200E22B05 /* MethodResult.cpp */,
+				FAEF1DC916AED9D200E22B05 /* MethodResult.h */,
+				C084B08F17394D4800C1DCC0 /* StringifyHelper.cpp */,
+				C084B09017394D4A00C1DCC0 /* StringifyHelper.h */,
+			);
+			name = api_generator;
+			sourceTree = "<group>";
+		};
+		FAEF1DBB16AED9D200E22B05 /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				FAD0471C1757A81700000F15 /* CJSEntryPoint.h */,
+				FAD0471D1757A81700000F15 /* CJSEntryPoint.mm */,
+				FA0E908C16B7FE000094CCDE /* CJSConverter.mm */,
+				FAEF1DBC16AED9D200E22B05 /* CJSConverter.h */,
+				FAEF1DBE16AED9D200E22B05 /* CMethodResult.h */,
+				FAEF1DBF16AED9D200E22B05 /* CMethodResult.m */,
+				FAEF1DC016AED9D200E22B05 /* CRubyConverter.h */,
+				FAEF1DC116AED9D200E22B05 /* CRubyConverter.m */,
+				FAEF1DC216AED9D200E22B05 /* IMethodResult.h */,
+				FAEF1DC316AED9D200E22B05 /* readme.txt */,
+				FAEF1DC416AED9D200E22B05 /* RubyCallbackHelper.h */,
+				FAEF1DC516AED9D200E22B05 /* RubyCallbackHelper.mm */,
+			);
+			name = iphone;
+			path = ../../shared/api_generator/iphone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C71626F0F8B7E170096B6AA /* RhoDefs.h in Headers */,
+				5C7162700F8B7E170096B6AA /* RhoFatalError.h in Headers */,
+				5C7162720F8B7E170096B6AA /* RhoFile.h in Headers */,
+				FA1D452618D9E2BC0010CCF9 /* app_build_capabilities.h in Headers */,
+				5C7162730F8B7E170096B6AA /* RhoFilePath.h in Headers */,
+				5C7162740F8B7E170096B6AA /* RhoMutexLock.h in Headers */,
+				5C7162750F8B7E170096B6AA /* RhoPort.h in Headers */,
+				5C7162760F8B7E170096B6AA /* RhoStd.h in Headers */,
+				5C7162770F8B7E170096B6AA /* RhoSystem.h in Headers */,
+				5C7162780F8B7E170096B6AA /* RhoTime.h in Headers */,
+				5C7162790F8B7E170096B6AA /* StringConverter.h in Headers */,
+				5C7162840F8B7E330096B6AA /* RhoLog.h in Headers */,
+				5C7162850F8B7E330096B6AA /* RhoLogCat.h in Headers */,
+				5C7162870F8B7E330096B6AA /* RhoLogConf.h in Headers */,
+				5C7162890F8B7E330096B6AA /* RhoLogSink.h in Headers */,
+				C08098B818059C88008FE912 /* RubyResultConvertor.h in Headers */,
+				5C6B448D0F946589003CB43A /* RhoConf.h in Headers */,
+				5C6B452D0F9468E2003CB43A /* RhoProfiler.h in Headers */,
+				5C98174C0FBC4FCE002597A5 /* AutoPointer.h in Headers */,
+				5C98174D0FBC4FCE002597A5 /* InputStream.h in Headers */,
+				5C98174E0FBC4FCE002597A5 /* irhoclassfactory.h in Headers */,
+				5C5335530FC2977600F268F0 /* IRhoThreadImpl.h in Headers */,
+				5C5335550FC2977600F268F0 /* RhoThread.h in Headers */,
+				5C7405931064AF1600163569 /* Tokenizer.h in Headers */,
+				5CBD462B1087399700107D0D /* URI.h in Headers */,
+				5C6855EA10A02EAA008DA047 /* RhodesApp.h in Headers */,
+				BD2CEFCF10ADF10D002356D9 /* CURLNetRequest.h in Headers */,
+				BD2CEFD010ADF10D002356D9 /* INetRequest.h in Headers */,
+				BD2C950910AE0D4B008D4692 /* PosixThreadImpl.h in Headers */,
+				BD4FC54C10BFE4D100D280D0 /* HttpServer.h in Headers */,
+				BDFCB13E112EE2B500AE3724 /* ssl.h in Headers */,
+				BDD11ECE113664E700349BE3 /* rhoparams.h in Headers */,
+				5C798935113BD148005F8736 /* GeoLocation.h in Headers */,
+				BD8DF8891147C8090041A968 /* SplashScreen.h in Headers */,
+				FAA714A91DDE5B6F00E5E7AD /* RhoNativeViewManager.h in Headers */,
+				5C59BF4E115B4BC300E96ADE /* unzip.h in Headers */,
+				5CCD7EBD116CE2D5005E6CA3 /* AppMenu.h in Headers */,
+				5CA2DE9111B01EF000B868D5 /* ThreadQueue.h in Headers */,
+				C51463721A9258F500607F50 /* http_parser.h in Headers */,
+				5C663BEB11F3712C005F60AF /* RhodesAppBase.h in Headers */,
+				5C2CE255122AEC87005EDBC4 /* RhoAppAdapter.h in Headers */,
+				FA5F58E012ADDA6D00C7613A /* app_build_configs.h in Headers */,
+				5CE03CCD12DB7E990058B474 /* sqlite3.h in Headers */,
+				FAC6EE5C143B1FC800B8E352 /* BaseMapEngine.h in Headers */,
+				FAC6EE5E143B1FC800B8E352 /* ESRIMapEngine.h in Headers */,
+				FAC6EE60143B1FC800B8E352 /* GeocodingMapEngine.h in Headers */,
+				FAC6EE62143B1FC800B8E352 /* GoogleMapEngine.h in Headers */,
+				FAC6EE64143B1FC800B8E352 /* MapEngine.h in Headers */,
+				FAC6EE66143B1FC800B8E352 /* OSMMapEngine.h in Headers */,
+				FAC6EE6A143B20B600B8E352 /* RhoMath.h in Headers */,
+				A22F9EFB14605D09006D8F1A /* PhonebookParams.h in Headers */,
+				C5D47763156A4ED000943A2D /* zip.h in Headers */,
+				A2D0557D15A7500A002376EE /* IRhoPushClient.h in Headers */,
+				A2D0557F15A7500A002376EE /* RhoPushManager.h in Headers */,
+				FAEF1DCA16AED9D200E22B05 /* BaseClasses.h in Headers */,
+				FAEF1DCB16AED9D200E22B05 /* GeneratorQueue.h in Headers */,
+				FAEF1DCC16AED9D200E22B05 /* CJSConverter.h in Headers */,
+				FAEF1DCE16AED9D200E22B05 /* CMethodResult.h in Headers */,
+				FAEF1DD016AED9D200E22B05 /* CRubyConverter.h in Headers */,
+				FAEF1DD216AED9D200E22B05 /* IMethodResult.h in Headers */,
+				FAEF1DD316AED9D200E22B05 /* RubyCallbackHelper.h in Headers */,
+				FAEF1DD616AED9D200E22B05 /* js_helpers.h in Headers */,
+				FAEF1DD816AED9D200E22B05 /* MethodResult.h in Headers */,
+				C08098B718059C88008FE912 /* JSONResultConvertor.h in Headers */,
+				FA6B222617026477009D1398 /* MethodResultConvertor.h in Headers */,
+				C084B09217394D4D00C1DCC0 /* StringifyHelper.h in Headers */,
+				FAD0471E1757A81700000F15 /* CJSEntryPoint.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* RhoLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "RhoLib" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RhoLib;
+			productName = RhoLib;
+			productReference = D2AAC046055464E500DB518D /* librholib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "RhoLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* RhoLib */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* RhoLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7162710F8B7E170096B6AA /* RhoFile.cpp in Sources */,
+				5C7162830F8B7E330096B6AA /* RhoLog.cpp in Sources */,
+				5C7162860F8B7E330096B6AA /* RhoLogConf.cpp in Sources */,
+				5C7162880F8B7E330096B6AA /* RhoLogSink.cpp in Sources */,
+				C51A570D19D1E2020064CE87 /* gunzip.cpp in Sources */,
+				5C71628A0F8B7E330096B6AA /* RhoPlainLog.cpp in Sources */,
+				5C6B448C0F946589003CB43A /* RhoConf.cpp in Sources */,
+				5C6B452C0F9468E2003CB43A /* RhoProfiler.cpp in Sources */,
+				5C5335540FC2977600F268F0 /* RhoThread.cpp in Sources */,
+				5C7405921064AF1600163569 /* Tokenizer.cpp in Sources */,
+				5CBD462A1087399700107D0D /* URI.cpp in Sources */,
+				BD2CEFCE10ADF10D002356D9 /* CURLNetRequest.cpp in Sources */,
+				BD2C950810AE0D4B008D4692 /* PosixThreadImpl.cpp in Sources */,
+				BD4FC54B10BFE4D100D280D0 /* HttpServer.cpp in Sources */,
+				C51A572119D1FF380064CE87 /* inftrees.cpp in Sources */,
+				BDFCB13D112EE2B500AE3724 /* ssl.cpp in Sources */,
+				5C798934113BD148005F8736 /* GeoLocation.cpp in Sources */,
+				5CECDBB3113FE3620084A75B /* System.cpp in Sources */,
+				C51A571319D1F32A0064CE87 /* gzclose.cpp in Sources */,
+				C51A571D19D1FE240064CE87 /* inffast.cpp in Sources */,
+				C51A571919D1F9770064CE87 /* inflate.cpp in Sources */,
+				BD8DF8881147C8090041A968 /* SplashScreen.cpp in Sources */,
+				C51A570F19D1EA200064CE87 /* gzlib.cpp in Sources */,
+				C51A572319D1FFBA0064CE87 /* crc32.cpp in Sources */,
+				5C59BF4D115B4BC300E96ADE /* unzip.cpp in Sources */,
+				5CCD7EBC116CE2D5005E6CA3 /* AppMenu.cpp in Sources */,
+				5CA2DE9011B01EF000B868D5 /* ThreadQueue.cpp in Sources */,
+				5CEBCFEF11E6FB8700145F4E /* rhoparams.cpp in Sources */,
+				5C663BEA11F3712C005F60AF /* RhodesAppBase.cpp in Sources */,
+				5C2CE15C122ACA9E005EDBC4 /* RhoAppAdapter.cpp in Sources */,
+				5CE03CCC12DB7E990058B474 /* sqlite3.c in Sources */,
+				5CB821AE1312487100778441 /* INetRequest.cpp in Sources */,
+				5C0F94DF132979140093FA1B /* RhoTime.cpp in Sources */,
+				FAC6EE5B143B1FC800B8E352 /* BaseMapEngine.cpp in Sources */,
+				C51A572719D202B90064CE87 /* zutil.cpp in Sources */,
+				FAC6EE5D143B1FC800B8E352 /* ESRIMapEngine.cpp in Sources */,
+				FAC6EE5F143B1FC800B8E352 /* GeocodingMapEngine.cpp in Sources */,
+				C51A572519D200F20064CE87 /* adler32.cpp in Sources */,
+				C51A571F19D1FE900064CE87 /* infback.cpp in Sources */,
+				FAC6EE61143B1FC800B8E352 /* GoogleMapEngine.cpp in Sources */,
+				C51A571719D1F5570064CE87 /* deflate.cpp in Sources */,
+				C51A571B19D1FC480064CE87 /* trees.cpp in Sources */,
+				FAC6EE63143B1FC800B8E352 /* MapEngine.cpp in Sources */,
+				FAC6EE65143B1FC800B8E352 /* OSMMapEngine.cpp in Sources */,
+				FAC6EE69143B20B600B8E352 /* RhoMath.cpp in Sources */,
+				A22F9EFF14605D82006D8F1A /* PhonebookParams.cpp in Sources */,
+				656E39321497A64300288105 /* BundleManager.cpp in Sources */,
+				C5D47762156A4ED000943A2D /* zip.cpp in Sources */,
+				A2D0557E15A7500A002376EE /* RhoPushManager.cpp in Sources */,
+				C56918CE168B9AB800F6013A /* RhodesApp.cpp in Sources */,
+				C51463711A9258F500607F50 /* http_parser.c in Sources */,
+				FAEF1DCF16AED9D200E22B05 /* CMethodResult.m in Sources */,
+				FAEF1DD116AED9D200E22B05 /* CRubyConverter.m in Sources */,
+				FAEF1DD416AED9D200E22B05 /* RubyCallbackHelper.mm in Sources */,
+				FAEF1DD516AED9D200E22B05 /* js_helpers.cpp in Sources */,
+				C51A571519D1F38F0064CE87 /* gzwrite.cpp in Sources */,
+				FAEF1DD716AED9D200E22B05 /* MethodResult.cpp in Sources */,
+				FA0E908D16B7FE000094CCDE /* CJSConverter.mm in Sources */,
+				C084B09117394D4D00C1DCC0 /* StringifyHelper.cpp in Sources */,
+				C51A571119D1F0C10064CE87 /* gzread.cpp in Sources */,
+				FAD0471F1757A81700000F15 /* CJSEntryPoint.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					../../shared,
+					../../shared/ruby,
+					../../shared/ruby/include,
+					../../shared/ruby/iphone,
+					../../shared/ruby/generated,
+					"../../iphone/Classes/**",
+					../../../lib/commonAPI,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fvisibility=hidden",
+				);
+				PRODUCT_NAME = rholib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRIPFLAGS = "";
+				SYMROOT = ../build;
+				USER_HEADER_SEARCH_PATHS = "../../shared/curl/include ../../shared";
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					../../shared,
+					../../shared/ruby,
+					../../shared/ruby/include,
+					../../shared/ruby/iphone,
+					../../shared/ruby/generated,
+					"../../iphone/Classes/**",
+					../../../lib/commonAPI,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fvisibility=hidden",
+				);
+				PRODUCT_NAME = rholib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRIPFLAGS = "";
+				SYMROOT = ../build;
+				USER_HEADER_SEARCH_PATHS = "../../shared/curl/include ../../shared";
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../shared;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.2;
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../shared;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		46B0042B10332DC400D0C2F4 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../shared;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Distribution;
+		};
+		46B0042C10332DC400D0C2F4 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					../../shared,
+					../../shared/ruby,
+					../../shared/ruby/include,
+					../../shared/ruby/iphone,
+					../../shared/ruby/generated,
+					"../../iphone/Classes/**",
+					../../../lib/commonAPI,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fvisibility=hidden",
+				);
+				PRODUCT_NAME = rholib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRIPFLAGS = "";
+				SYMROOT = ../build;
+				USER_HEADER_SEARCH_PATHS = "../../shared/curl/include ../../shared";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "RhoLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+				46B0042C10332DC400D0C2F4 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "RhoLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+				46B0042B10332DC400D0C2F4 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

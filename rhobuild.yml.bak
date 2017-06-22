@@ -1,0 +1,34 @@
+---
+env:
+  paths:
+    java: C:\Program Files\Java\jre1.8.0_131\bin
+    android: C:\mobile\android\android-sdk
+    android-ndk: C:\mobile\android\android-ndk-r14b-windows-x86
+build:
+  bbpath: platform/bb
+  wmpath: platform/wm
+  wppath: platform/wp7
+  androidpath: platform/android
+  iphonepath: platform/iphone
+  symbianpath: platform/symbian
+  bb:
+  bbsignpwd: somepasswordhere
+android:
+excludedirs:
+  all:
+  - ! '**/.*.swo'
+  - ! '**/.*.swn'
+  - ! '**/.DS_Store'
+  - ! '**/.git'
+  bb:
+  - public/js/iui
+  - public/js/jquery*
+  - public/jqtouch*
+  - public/js/prototype*
+  - public/css/iphone*
+  - public/iwebkit
+  - public/themes
+  - ! '**/jquery*.js'
+  - ! '**/*.db'
+  - public/images/android
+  - public/images/iphone

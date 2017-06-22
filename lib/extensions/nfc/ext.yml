@@ -1,0 +1,10 @@
+entry: Init_Nfc	
+android:
+  exttype: rakefile
+  rhodes_listener: com.rhomobile.nfc.Nfc
+  manifest_changes: ext/platform/android/AndroidManifest.xml
+  adds: ext/platform/android/additional_files
+  source_list: ext/platform/android/ext_build.files
+libraries: ["Nfc"]
+
+platforms: ["android"]

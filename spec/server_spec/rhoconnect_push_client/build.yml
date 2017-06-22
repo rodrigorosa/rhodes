@@ -1,0 +1,22 @@
+sdk: ../../.. 
+sdkversion: 3.5.0
+name: rhoconnect_push_client
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator8.2
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+  BundleIdentifier: com.rhomobile.rhoconnectpushclient
+  BundleURLScheme: rhoconnectpushclient
+wp:
+  productid: '80b879d0-16fc-0130-39e9-3c0754090a18'
+android:
+  version: 2.3.3
+
+extensions: ["json", "rhoconnect-client", "rhoconnect-push"]
