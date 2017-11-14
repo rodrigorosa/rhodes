@@ -9,6 +9,6 @@ module BrInscricaoEstadual
 			DIGITS_ZERO = [0,10,11]
       DIGITO_LEVEL1=6
       DIGITO_LEVEL2=7
-		
+
   end
 end

@@ -11,8 +11,8 @@ module BrInscricaoEstadual
 
       def digit_verify_inscription(result)
         if self.class::DIGITS_ZERO.include?(result)
-           0 
-        elsif result == 11 
+           0
+        elsif result == 11
           values_p_d[:d]
         else
           result
@@ -31,7 +31,7 @@ module BrInscricaoEstadual
           {p: 9, d: 1}
         elsif insc_est_arr >= 3019023 then
           {p: 0, d: 0}
-        end  
+        end
       end
 	end
 end

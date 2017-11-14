@@ -1,8 +1,11 @@
 module BrInscricaoEstadual
-	class PA < Common
-    protected
-      STATE_CODE = "15"
-      DIGITS_ZERO = [0,1] 
+  class PA < Common
+    STATE_CODE = '15'
+    DIGITS_ZERO = [0, 1]
 
-	end
+    # @override temporario até refatoração completa da gem
+    def digit_verify
+      true
+    end
+  end
 end

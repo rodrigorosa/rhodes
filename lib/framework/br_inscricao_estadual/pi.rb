@@ -1,7 +1,7 @@
 module BrInscricaoEstadual
-	class PI < Common
+  class PI < Common
     protected
-      DIGITS_ZERO = [10,11] 
 
-	end
+      DIGITS_ZERO = [10, 11]
+  end
 end

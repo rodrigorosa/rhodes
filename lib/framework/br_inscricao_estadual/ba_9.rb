@@ -10,6 +10,6 @@ module BrInscricaoEstadual
       DIGITO_LEVEL2=8
 
 
-	
+
   end
 end

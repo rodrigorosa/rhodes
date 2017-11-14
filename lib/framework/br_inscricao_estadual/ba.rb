@@ -9,7 +9,7 @@ module BrInscricaoEstadual
   	def calculate_verify(peso)
 			num_mod = (self.insc_est.start_with?('6','7','9') ? 11 : 10)
     	result = (num_mod - calculate(peso)%num_mod)
-			digit_verify_inscription(result)      
+			digit_verify_inscription(result)
     end
 
   end
